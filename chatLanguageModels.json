@@ -1,0 +1,511 @@
+[
+  {
+    "name": "litellm",
+    "vendor": "customendpoint",
+    "apiKey": "${input:chat.lm.secret.-300e80ff}",
+    "apiType": "chat-completions",
+    "models": [
+      {
+        "id": "assistant",
+        "name": "assistant",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false
+      },
+      {
+        "id": "desktop.K2-Horizon-MoVA-36B-A4B-B70",
+        "name": "desktop.K2-Horizon-MoVA-36B-A4B-B70",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false,
+        "maxInputTokens": 122880,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.gemma4:12b",
+        "name": "desktop.gemma4:12b",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false,
+        "maxInputTokens": 57344,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.gemma4:12b-no-reasoning",
+        "name": "desktop.gemma4:12b-no-reasoning",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": true,
+        "maxInputTokens": 57344,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.gemma4:26b-a4b",
+        "name": "desktop.gemma4:26b-a4b",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": true,
+        "maxInputTokens": 24576,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.gemma4:31b",
+        "name": "desktop.gemma4:31b",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": true,
+        "maxInputTokens": 24576,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.gemma4:e4b",
+        "name": "desktop.gemma4:e4b",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": true,
+        "maxInputTokens": 122880,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.gemma4:e4b-no-reasoning",
+        "name": "desktop.gemma4:e4b-no-reasoning",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": true,
+        "maxInputTokens": 122880,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.ibm-granite4.1:3b",
+        "name": "desktop.ibm-granite4.1:3b",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false,
+        "maxInputTokens": 57346,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.kat-coder",
+        "name": "desktop.kat-coder",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false,
+        "maxInputTokens": 122880,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.muse:30b",
+        "name": "desktop.muse:30b",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": true,
+        "maxInputTokens": 122880,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.ornith1.5:35b-a3b",
+        "name": "desktop.ornith1.5:35b-a3b",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": true,
+        "maxInputTokens": 122880,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.ornith1.5:35b-a3b-full",
+        "name": "desktop.ornith1.5:35b-a3b-full",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": true,
+        "maxInputTokens": 253952,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.ornith1.5:35b-a3b-small",
+        "name": "desktop.ornith1.5:35b-a3b-small",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": true,
+        "maxInputTokens": 253952,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.ornith1.5:35b-a3b-small-24gb",
+        "name": "desktop.ornith1.5:35b-a3b-small-24gb",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": true,
+        "maxInputTokens": 122880,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.phi3.5:mini",
+        "name": "desktop.phi3.5:mini",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false,
+        "maxInputTokens": 57346,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.qwen3.5:9b",
+        "name": "desktop.qwen3.5:9b",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": true,
+        "maxInputTokens": 122880,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.qwen3.5:9b-no-reasoning",
+        "name": "desktop.qwen3.5:9b-no-reasoning",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": true,
+        "maxInputTokens": 122880,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.qwen3.6:35b-a3b",
+        "name": "desktop.qwen3.6:35b-a3b",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": true,
+        "maxInputTokens": 57344,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.qwen3.6:35b-a3b-multimodal-no-reasoning",
+        "name": "desktop.qwen3.6:35b-a3b-multimodal-no-reasoning",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false,
+        "maxInputTokens": 24576,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.qwen3.6:35b-a3b-no-reasoning",
+        "name": "desktop.qwen3.6:35b-a3b-no-reasoning",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false,
+        "maxInputTokens": 73728,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.qwen3.6:35b-a3b-small",
+        "name": "desktop.qwen3.6:35b-a3b-small",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": true,
+        "maxInputTokens": 122880,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.qwen3.6:35b-a3b-small-context",
+        "name": "desktop.qwen3.6:35b-a3b-small-context",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false,
+        "maxInputTokens": 1,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.qwen3.6:35b-a3b-unsensored",
+        "name": "desktop.qwen3.6:35b-a3b-unsensored",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false,
+        "maxInputTokens": 24576,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.qwen3.8-27b:q4",
+        "name": "desktop.qwen3.8-27b:q4",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": true,
+        "maxInputTokens": 57344,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.qwen3.8-flash-next",
+        "name": "desktop.qwen3.8-flash-next",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false,
+        "maxInputTokens": 122880,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.qwen3.8:27b",
+        "name": "desktop.qwen3.8:27b",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": true,
+        "maxInputTokens": 188416,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.qwen3.8:27b-b70",
+        "name": "desktop.qwen3.8:27b-b70",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": true,
+        "maxInputTokens": 155648,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.qwen3.8:27b-full",
+        "name": "desktop.qwen3.8:27b-full",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": true,
+        "maxInputTokens": 188416,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.qwen3.8:27b-vllm",
+        "name": "desktop.qwen3.8:27b-vllm",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false,
+        "maxInputTokens": 122880,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.swift3.8-27b:q6_k_l",
+        "name": "desktop.swift3.8-27b:q6_k_l",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": true,
+        "maxInputTokens": 122880,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop2.gemma4:12b",
+        "name": "desktop2.gemma4:12b",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false,
+        "maxInputTokens": 24576,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop2.ibm-granite4.1:3b",
+        "name": "desktop2.ibm-granite4.1:3b",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false,
+        "maxInputTokens": 57344,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop2.muse:30b:IQ4_XS",
+        "name": "desktop2.muse:30b:IQ4_XS",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false,
+        "maxInputTokens": 24576,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop2.ornith1.5:35b-a3b:q4",
+        "name": "desktop2.ornith1.5:35b-a3b:q4",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false,
+        "maxInputTokens": 122880,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop2.ornith1.5:9b",
+        "name": "desktop2.ornith1.5:9b",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false,
+        "maxInputTokens": 57344,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop2.ornith1.5:9b-uncensored",
+        "name": "desktop2.ornith1.5:9b-uncensored",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false,
+        "maxInputTokens": 57344,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop2.qwen3-embedding-4b",
+        "name": "desktop2.qwen3-embedding-4b",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false,
+        "maxInputTokens": 1,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop2.qwen3-reranking-4b",
+        "name": "desktop2.qwen3-reranking-4b",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false,
+        "maxInputTokens": 8192,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop2.qwen3.8-27b:q4",
+        "name": "desktop2.qwen3.8-27b:q4",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false,
+        "maxInputTokens": 57344,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop2.qwen3.8-27b:q4-2",
+        "name": "desktop2.qwen3.8-27b:q4-2",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false,
+        "maxInputTokens": 90112,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop2.swift-qwen3.8-flash-next",
+        "name": "desktop2.swift-qwen3.8-flash-next",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": true,
+        "maxInputTokens": 32768,
+        "maxOutputTokens": 32768
+      },
+      {
+        "id": "github_copilot/gpt-5",
+        "name": "github_copilot/gpt-5",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": true,
+        "maxInputTokens": 1,
+        "maxOutputTokens": 128000
+      },
+      {
+        "id": "gpt-5.6-luna",
+        "name": "gpt-5.6-luna",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false
+      },
+      {
+        "id": "kimi-k3",
+        "name": "kimi-k3",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false
+      },
+      {
+        "id": "pooled",
+        "name": "pooled",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false
+      },
+      {
+        "id": "qwen3.8-27b:q4",
+        "name": "qwen3.8-27b:q4",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false
+      },
+      {
+        "id": "server.bonsai-27b-q1",
+        "name": "server.bonsai-27b-q1",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false,
+        "maxInputTokens": 24576,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "server.bonsai-27b-q2",
+        "name": "server.bonsai-27b-q2",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false,
+        "maxInputTokens": 24576,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "server.gemma-4-E2B",
+        "name": "server.gemma-4-E2B",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": true,
+        "maxInputTokens": 24576,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "server.granite-4.1-3b",
+        "name": "server.granite-4.1-3b",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false,
+        "maxInputTokens": 24576,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "server.muse:30b",
+        "name": "server.muse:30b",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false,
+        "maxInputTokens": 24576,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "server.qwen3-4b",
+        "name": "server.qwen3-4b",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false,
+        "maxInputTokens": 24576,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "server.qwen3.5-4b",
+        "name": "server.qwen3.5-4b",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false,
+        "maxInputTokens": 24576,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "server.qwen3.5-9b",
+        "name": "server.qwen3.5-9b",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false,
+        "maxInputTokens": 57344,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "server.qwen3.5-9b-claude",
+        "name": "server.qwen3.5-9b-claude",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false,
+        "maxInputTokens": 57344,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "summarizer",
+        "name": "summarizer",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false
+      }
+    ]
+  }
+]
