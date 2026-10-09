@@ -22,6 +22,24 @@
         "maxOutputTokens": 8192
       },
       {
+        "id": "desktop.arex:27b",
+        "name": "desktop.arex:27b",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": true,
+        "maxInputTokens": 155648,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.fara1.5:27b",
+        "name": "desktop.fara1.5:27b",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": true,
+        "maxInputTokens": 24576,
+        "maxOutputTokens": 8192
+      },
+      {
         "id": "desktop.gemma4:12b",
         "name": "desktop.gemma4:12b",
         "url": "https://server.tailc63ae8.ts.net:4444/v1",
@@ -91,6 +109,24 @@
         "toolCalling": true,
         "vision": false,
         "maxInputTokens": 122880,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.liquid-d1:3b",
+        "name": "desktop.liquid-d1:3b",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": true,
+        "maxInputTokens": 24576,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.magentic-brain:14b",
+        "name": "desktop.magentic-brain:14b",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false,
+        "maxInputTokens": 24576,
         "maxOutputTokens": 8192
       },
       {
@@ -280,6 +316,15 @@
         "toolCalling": true,
         "vision": true,
         "maxInputTokens": 122880,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.terse-coder:27b",
+        "name": "desktop.terse-coder:27b",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": true,
+        "maxInputTokens": 155648,
         "maxOutputTokens": 8192
       },
       {
