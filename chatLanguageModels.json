@@ -400,6 +400,15 @@
         "maxOutputTokens": 8192
       },
       {
+        "id": "desktop2.k2-horizon-7b",
+        "name": "desktop2.k2-horizon-7b",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false,
+        "maxInputTokens": 57344,
+        "maxOutputTokens": 8192
+      },
+      {
         "id": "desktop2.muse:30b:IQ4_XS",
         "name": "desktop2.muse:30b:IQ4_XS",
         "url": "https://server.tailc63ae8.ts.net:4444/v1",
