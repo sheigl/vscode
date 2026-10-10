@@ -342,7 +342,7 @@
         "url": "https://server.tailc63ae8.ts.net:4444/v1",
         "toolCalling": true,
         "vision": true,
-        "maxInputTokens": 319488,
+        "maxInputTokens": 253952,
         "maxOutputTokens": 8192
       },
       {
@@ -387,7 +387,7 @@
         "url": "https://server.tailc63ae8.ts.net:4444/v1",
         "toolCalling": true,
         "vision": true,
-        "maxInputTokens": 319488,
+        "maxInputTokens": 253952,
         "maxOutputTokens": 8192
       },
       {
@@ -396,8 +396,8 @@
         "url": "https://server.tailc63ae8.ts.net:4444/v1",
         "toolCalling": true,
         "vision": true,
-        "maxInputTokens": 319488,
-        "maxOutputTokens": 8192
+        "maxInputTokens": 131072,
+        "maxOutputTokens": 32768
       },
       {
         "id": "desktop2.gemma4:12b",
