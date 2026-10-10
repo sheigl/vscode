@@ -229,12 +229,39 @@
         "maxOutputTokens": 8192
       },
       {
-        "id": "desktop.qwen3.8:27b-vllm",
-        "name": "desktop.qwen3.8:27b-vllm",
+        "id": "desktop.swift1.5-qwen3.8-27b",
+        "name": "desktop.swift1.5-qwen3.8-27b",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": true,
+        "maxInputTokens": 253952,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.swift1.5-qwen3.8-27b-vllm-1",
+        "name": "desktop.swift1.5-qwen3.8-27b-vllm-1",
         "url": "https://server.tailc63ae8.ts.net:4444/v1",
         "toolCalling": true,
         "vision": false,
         "maxInputTokens": 122880,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.swift1.5-qwen3.8-27b-vllm-2",
+        "name": "desktop.swift1.5-qwen3.8-27b-vllm-2",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false,
+        "maxInputTokens": 122880,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.swift1.5-qwen3.8-27b:Q6_K_L",
+        "name": "desktop.swift1.5-qwen3.8-27b:Q6_K_L",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": true,
+        "maxInputTokens": 253952,
         "maxOutputTokens": 8192
       },
       {
@@ -253,6 +280,51 @@
         "toolCalling": true,
         "vision": true,
         "maxInputTokens": 57344,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.swift1.5:27b",
+        "name": "desktop.swift1.5:27b",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": true,
+        "maxInputTokens": 253952,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.swift1.5:27b-int4-1",
+        "name": "desktop.swift1.5:27b-int4-1",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false,
+        "maxInputTokens": 122880,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.swift1.5:27b-int4-2",
+        "name": "desktop.swift1.5:27b-int4-2",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false,
+        "maxInputTokens": 122880,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.swift1.5:27b-vllm-1",
+        "name": "desktop.swift1.5:27b-vllm-1",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false,
+        "maxInputTokens": 122880,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.swift1.5:27b-vllm-2",
+        "name": "desktop.swift1.5:27b-vllm-2",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false,
+        "maxInputTokens": 122880,
         "maxOutputTokens": 8192
       },
       {
