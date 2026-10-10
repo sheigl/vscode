@@ -315,8 +315,8 @@
         "url": "https://server.tailc63ae8.ts.net:4444/v1",
         "toolCalling": true,
         "vision": true,
-        "maxInputTokens": 57344,
-        "maxOutputTokens": 8192
+        "maxInputTokens": 32768,
+        "maxOutputTokens": 32768
       },
       {
         "id": "desktop.swift1.5-qwen3.8-flash-next:Q4_K_M",
@@ -334,6 +334,15 @@
         "toolCalling": true,
         "vision": false,
         "maxInputTokens": 122880,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.terse-coder-27b",
+        "name": "desktop.terse-coder-27b",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": true,
+        "maxInputTokens": 319488,
         "maxOutputTokens": 8192
       },
       {
@@ -373,12 +382,21 @@
         "maxOutputTokens": 8192
       },
       {
+        "id": "desktop.terse-coder-27b:Q6_K",
+        "name": "desktop.terse-coder-27b:Q6_K",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": true,
+        "maxInputTokens": 319488,
+        "maxOutputTokens": 8192
+      },
+      {
         "id": "desktop.terse-coder:27b",
         "name": "desktop.terse-coder:27b",
         "url": "https://server.tailc63ae8.ts.net:4444/v1",
         "toolCalling": true,
-        "vision": false,
-        "maxInputTokens": 155648,
+        "vision": true,
+        "maxInputTokens": 319488,
         "maxOutputTokens": 8192
       },
       {
@@ -400,8 +418,17 @@
         "maxOutputTokens": 8192
       },
       {
-        "id": "desktop2.k2-horizon-7b",
-        "name": "desktop2.k2-horizon-7b",
+        "id": "desktop2.k2-horizon-7b-1",
+        "name": "desktop2.k2-horizon-7b-1",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false,
+        "maxInputTokens": 57344,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop2.k2-horizon-7b-2",
+        "name": "desktop2.k2-horizon-7b-2",
         "url": "https://server.tailc63ae8.ts.net:4444/v1",
         "toolCalling": true,
         "vision": false,
@@ -485,9 +512,7 @@
         "name": "desktop2.swift-qwen3.8-flash-next",
         "url": "https://server.tailc63ae8.ts.net:4444/v1",
         "toolCalling": true,
-        "vision": true,
-        "maxInputTokens": 32768,
-        "maxOutputTokens": 32768
+        "vision": false
       },
       {
         "id": "github_copilot/gpt-5",
@@ -504,6 +529,15 @@
         "vision": true,
         "maxInputTokens": 72000,
         "maxOutputTokens": 128000
+      },
+      {
+        "id": "k2-horizon-7b",
+        "name": "k2-horizon-7b",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false,
+        "maxInputTokens": 32768,
+        "maxOutputTokens": 32768
       },
       {
         "id": "kimi-k3",
