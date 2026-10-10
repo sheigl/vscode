@@ -26,7 +26,7 @@
         "name": "desktop.arex:27b",
         "url": "https://server.tailc63ae8.ts.net:4444/v1",
         "toolCalling": true,
-        "vision": true,
+        "vision": false,
         "maxInputTokens": 155648,
         "maxOutputTokens": 8192
       },
@@ -310,12 +310,66 @@
         "maxOutputTokens": 8192
       },
       {
+        "id": "desktop.swift1.5-qwen3.8-flash-next",
+        "name": "desktop.swift1.5-qwen3.8-flash-next",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": true,
+        "maxInputTokens": 57344,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.swift1.5-qwen3.8-flash-next:Q4_K_M",
+        "name": "desktop.swift1.5-qwen3.8-flash-next:Q4_K_M",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": true,
+        "maxInputTokens": 57344,
+        "maxOutputTokens": 8192
+      },
+      {
         "id": "desktop.swift3.8-27b:q6_k_l",
         "name": "desktop.swift3.8-27b:q6_k_l",
         "url": "https://server.tailc63ae8.ts.net:4444/v1",
         "toolCalling": true,
-        "vision": true,
+        "vision": false,
         "maxInputTokens": 122880,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.terse-coder-27b-0",
+        "name": "desktop.terse-coder-27b-0",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": true,
+        "maxInputTokens": 155648,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.terse-coder-27b-0:Q4_K_M",
+        "name": "desktop.terse-coder-27b-0:Q4_K_M",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": true,
+        "maxInputTokens": 155648,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.terse-coder-27b-1",
+        "name": "desktop.terse-coder-27b-1",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": true,
+        "maxInputTokens": 155648,
+        "maxOutputTokens": 8192
+      },
+      {
+        "id": "desktop.terse-coder-27b-1:Q4_K_M",
+        "name": "desktop.terse-coder-27b-1:Q4_K_M",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": true,
+        "maxInputTokens": 155648,
         "maxOutputTokens": 8192
       },
       {
@@ -323,7 +377,7 @@
         "name": "desktop.terse-coder:27b",
         "url": "https://server.tailc63ae8.ts.net:4444/v1",
         "toolCalling": true,
-        "vision": true,
+        "vision": false,
         "maxInputTokens": 155648,
         "maxOutputTokens": 8192
       },
@@ -431,23 +485,25 @@
         "name": "github_copilot/gpt-5",
         "url": "https://server.tailc63ae8.ts.net:4444/v1",
         "toolCalling": true,
-        "vision": true,
-        "maxInputTokens": 1,
-        "maxOutputTokens": 128000
+        "vision": false
       },
       {
         "id": "gpt-5.6-luna",
         "name": "gpt-5.6-luna",
         "url": "https://server.tailc63ae8.ts.net:4444/v1",
         "toolCalling": true,
-        "vision": false
+        "vision": true,
+        "maxInputTokens": 72000,
+        "maxOutputTokens": 128000
       },
       {
         "id": "kimi-k3",
         "name": "kimi-k3",
         "url": "https://server.tailc63ae8.ts.net:4444/v1",
         "toolCalling": true,
-        "vision": false
+        "vision": true,
+        "maxInputTokens": 786432,
+        "maxOutputTokens": 131072
       },
       {
         "id": "pooled",
