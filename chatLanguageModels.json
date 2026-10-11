@@ -85,6 +85,15 @@
         "maxOutputTokens": 8192
       },
       {
+        "id": "desktop.k2-horizon-7b",
+        "name": "desktop.k2-horizon-7b",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": false,
+        "maxInputTokens": 32768,
+        "maxOutputTokens": 32768
+      },
+      {
         "id": "desktop.liquid-d1:3b",
         "name": "desktop.liquid-d1:3b",
         "url": "https://server.tailc63ae8.ts.net:4444/v1",
@@ -94,53 +103,8 @@
         "maxOutputTokens": 8192
       },
       {
-        "id": "desktop.magentic-brain:14b",
-        "name": "desktop.magentic-brain:14b",
-        "url": "https://server.tailc63ae8.ts.net:4444/v1",
-        "toolCalling": true,
-        "vision": false,
-        "maxInputTokens": 24576,
-        "maxOutputTokens": 8192
-      },
-      {
         "id": "desktop.muse:30b",
         "name": "desktop.muse:30b",
-        "url": "https://server.tailc63ae8.ts.net:4444/v1",
-        "toolCalling": true,
-        "vision": true,
-        "maxInputTokens": 122880,
-        "maxOutputTokens": 8192
-      },
-      {
-        "id": "desktop.ornith1.5:35b-a3b",
-        "name": "desktop.ornith1.5:35b-a3b",
-        "url": "https://server.tailc63ae8.ts.net:4444/v1",
-        "toolCalling": true,
-        "vision": true,
-        "maxInputTokens": 122880,
-        "maxOutputTokens": 8192
-      },
-      {
-        "id": "desktop.ornith1.5:35b-a3b-full",
-        "name": "desktop.ornith1.5:35b-a3b-full",
-        "url": "https://server.tailc63ae8.ts.net:4444/v1",
-        "toolCalling": true,
-        "vision": true,
-        "maxInputTokens": 253952,
-        "maxOutputTokens": 8192
-      },
-      {
-        "id": "desktop.ornith1.5:35b-a3b-small",
-        "name": "desktop.ornith1.5:35b-a3b-small",
-        "url": "https://server.tailc63ae8.ts.net:4444/v1",
-        "toolCalling": true,
-        "vision": true,
-        "maxInputTokens": 253952,
-        "maxOutputTokens": 8192
-      },
-      {
-        "id": "desktop.ornith1.5:35b-a3b-small-24gb",
-        "name": "desktop.ornith1.5:35b-a3b-small-24gb",
         "url": "https://server.tailc63ae8.ts.net:4444/v1",
         "toolCalling": true,
         "vision": true,
@@ -175,60 +139,6 @@
         "maxOutputTokens": 8192
       },
       {
-        "id": "desktop.qwen3.6:35b-a3b",
-        "name": "desktop.qwen3.6:35b-a3b",
-        "url": "https://server.tailc63ae8.ts.net:4444/v1",
-        "toolCalling": true,
-        "vision": true,
-        "maxInputTokens": 57344,
-        "maxOutputTokens": 8192
-      },
-      {
-        "id": "desktop.qwen3.6:35b-a3b-small",
-        "name": "desktop.qwen3.6:35b-a3b-small",
-        "url": "https://server.tailc63ae8.ts.net:4444/v1",
-        "toolCalling": true,
-        "vision": true,
-        "maxInputTokens": 122880,
-        "maxOutputTokens": 8192
-      },
-      {
-        "id": "desktop.qwen3.8-27b:q4",
-        "name": "desktop.qwen3.8-27b:q4",
-        "url": "https://server.tailc63ae8.ts.net:4444/v1",
-        "toolCalling": true,
-        "vision": true,
-        "maxInputTokens": 57344,
-        "maxOutputTokens": 8192
-      },
-      {
-        "id": "desktop.qwen3.8:27b",
-        "name": "desktop.qwen3.8:27b",
-        "url": "https://server.tailc63ae8.ts.net:4444/v1",
-        "toolCalling": true,
-        "vision": true,
-        "maxInputTokens": 188416,
-        "maxOutputTokens": 8192
-      },
-      {
-        "id": "desktop.qwen3.8:27b-b70",
-        "name": "desktop.qwen3.8:27b-b70",
-        "url": "https://server.tailc63ae8.ts.net:4444/v1",
-        "toolCalling": true,
-        "vision": true,
-        "maxInputTokens": 155648,
-        "maxOutputTokens": 8192
-      },
-      {
-        "id": "desktop.qwen3.8:27b-full",
-        "name": "desktop.qwen3.8:27b-full",
-        "url": "https://server.tailc63ae8.ts.net:4444/v1",
-        "toolCalling": true,
-        "vision": true,
-        "maxInputTokens": 188416,
-        "maxOutputTokens": 8192
-      },
-      {
         "id": "desktop.swift1.5-qwen3.8-27b",
         "name": "desktop.swift1.5-qwen3.8-27b",
         "url": "https://server.tailc63ae8.ts.net:4444/v1",
@@ -243,7 +153,7 @@
         "url": "https://server.tailc63ae8.ts.net:4444/v1",
         "toolCalling": true,
         "vision": false,
-        "maxInputTokens": 122880,
+        "maxInputTokens": 155648,
         "maxOutputTokens": 8192
       },
       {
@@ -252,7 +162,7 @@
         "url": "https://server.tailc63ae8.ts.net:4444/v1",
         "toolCalling": true,
         "vision": false,
-        "maxInputTokens": 122880,
+        "maxInputTokens": 155648,
         "maxOutputTokens": 8192
       },
       {
@@ -297,7 +207,7 @@
         "url": "https://server.tailc63ae8.ts.net:4444/v1",
         "toolCalling": true,
         "vision": false,
-        "maxInputTokens": 122880,
+        "maxInputTokens": 155648,
         "maxOutputTokens": 8192
       },
       {
@@ -306,7 +216,7 @@
         "url": "https://server.tailc63ae8.ts.net:4444/v1",
         "toolCalling": true,
         "vision": false,
-        "maxInputTokens": 122880,
+        "maxInputTokens": 155648,
         "maxOutputTokens": 8192
       },
       {
@@ -315,7 +225,7 @@
         "url": "https://server.tailc63ae8.ts.net:4444/v1",
         "toolCalling": true,
         "vision": false,
-        "maxInputTokens": 122880,
+        "maxInputTokens": 155648,
         "maxOutputTokens": 8192
       },
       {
@@ -324,7 +234,7 @@
         "url": "https://server.tailc63ae8.ts.net:4444/v1",
         "toolCalling": true,
         "vision": false,
-        "maxInputTokens": 122880,
+        "maxInputTokens": 155648,
         "maxOutputTokens": 8192
       },
       {
@@ -334,42 +244,6 @@
         "toolCalling": true,
         "vision": true,
         "maxInputTokens": 253952,
-        "maxOutputTokens": 8192
-      },
-      {
-        "id": "desktop.terse-coder-27b-0",
-        "name": "desktop.terse-coder-27b-0",
-        "url": "https://server.tailc63ae8.ts.net:4444/v1",
-        "toolCalling": true,
-        "vision": true,
-        "maxInputTokens": 155648,
-        "maxOutputTokens": 8192
-      },
-      {
-        "id": "desktop.terse-coder-27b-0:Q4_K_M",
-        "name": "desktop.terse-coder-27b-0:Q4_K_M",
-        "url": "https://server.tailc63ae8.ts.net:4444/v1",
-        "toolCalling": true,
-        "vision": true,
-        "maxInputTokens": 155648,
-        "maxOutputTokens": 8192
-      },
-      {
-        "id": "desktop.terse-coder-27b-1",
-        "name": "desktop.terse-coder-27b-1",
-        "url": "https://server.tailc63ae8.ts.net:4444/v1",
-        "toolCalling": true,
-        "vision": true,
-        "maxInputTokens": 155648,
-        "maxOutputTokens": 8192
-      },
-      {
-        "id": "desktop.terse-coder-27b-1:Q4_K_M",
-        "name": "desktop.terse-coder-27b-1:Q4_K_M",
-        "url": "https://server.tailc63ae8.ts.net:4444/v1",
-        "toolCalling": true,
-        "vision": true,
-        "maxInputTokens": 155648,
         "maxOutputTokens": 8192
       },
       {
@@ -517,9 +391,7 @@
         "name": "k2-horizon-7b",
         "url": "https://server.tailc63ae8.ts.net:4444/v1",
         "toolCalling": true,
-        "vision": false,
-        "maxInputTokens": 32768,
-        "maxOutputTokens": 32768
+        "vision": false
       },
       {
         "id": "pooled",
@@ -622,6 +494,15 @@
         "url": "https://server.tailc63ae8.ts.net:4444/v1",
         "toolCalling": true,
         "vision": false
+      },
+      {
+        "id": "swift1.5-qwen3.8-27b-vllm",
+        "name": "swift1.5-qwen3.8-27b-vllm",
+        "url": "https://server.tailc63ae8.ts.net:4444/v1",
+        "toolCalling": true,
+        "vision": true,
+        "maxInputTokens": 131072,
+        "maxOutputTokens": 32768
       }
     ]
   }
