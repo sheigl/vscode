@@ -1,4 +1,4 @@
 **/**
 !.gitignore
-!chatLanguageModels.json
+!models.json
 !gen_vscode_models.py
