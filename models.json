@@ -47,7 +47,7 @@
     "name": "desktop.gemma4:26b-a4b",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
+    "vision": false,
     "maxInputTokens": 24576,
     "maxOutputTokens": 8192
   },
@@ -56,7 +56,7 @@
     "name": "desktop.gemma4:31b",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
+    "vision": false,
     "maxInputTokens": 24576,
     "maxOutputTokens": 8192
   },
@@ -209,7 +209,7 @@
     "name": "desktop.swift1.5-qwen3.8-27b",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
+    "vision": false,
     "maxInputTokens": 253952,
     "maxOutputTokens": 8192
   },
@@ -254,7 +254,7 @@
     "name": "desktop.swift1.5-qwen3.8-27b:Q6_K_L",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
+    "vision": false,
     "maxInputTokens": 253952,
     "maxOutputTokens": 8192
   },
@@ -263,7 +263,7 @@
     "name": "desktop.swift1.5:27b",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
+    "vision": false,
     "maxInputTokens": 253952,
     "maxOutputTokens": 8192
   },
@@ -326,7 +326,7 @@
     "name": "desktop.terse-coder-27b",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
+    "vision": false,
     "maxInputTokens": 253952,
     "maxOutputTokens": 8192
   },
@@ -335,7 +335,7 @@
     "name": "desktop.terse-coder-27b:Q6_K",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
+    "vision": false,
     "maxInputTokens": 253952,
     "maxOutputTokens": 8192
   },
@@ -408,8 +408,8 @@
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": true,
-    "maxInputTokens": 122880,
-    "maxOutputTokens": 8192
+    "maxInputTokens": 98304,
+    "maxOutputTokens": 32768
   },
   {
     "id": "github_copilot/gpt-5",
