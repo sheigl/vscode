@@ -43,24 +43,6 @@
     "maxOutputTokens": 16384
   },
   {
-    "id": "desktop.gemma4:26b-a4b",
-    "name": "desktop.gemma4:26b-a4b",
-    "url": "https://server.tailc63ae8.ts.net:4444/v1",
-    "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 16384,
-    "maxOutputTokens": 16384
-  },
-  {
-    "id": "desktop.gemma4:31b",
-    "name": "desktop.gemma4:31b",
-    "url": "https://server.tailc63ae8.ts.net:4444/v1",
-    "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 16384,
-    "maxOutputTokens": 16384
-  },
-  {
     "id": "desktop.gemma4:e4b",
     "name": "desktop.gemma4:e4b",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
@@ -165,8 +147,8 @@
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": true,
-    "maxInputTokens": 183616,
-    "maxOutputTokens": 16384
+    "maxInputTokens": 1,
+    "maxOutputTokens": 200000
   },
   {
     "id": "desktop.strata-iq3s",
@@ -176,24 +158,6 @@
     "vision": true,
     "maxInputTokens": 167232,
     "maxOutputTokens": 32768
-  },
-  {
-    "id": "desktop.strata-iq3s-3060",
-    "name": "desktop.strata-iq3s-3060",
-    "url": "https://server.tailc63ae8.ts.net:4444/v1",
-    "toolCalling": true,
-    "vision": false,
-    "maxInputTokens": 114688,
-    "maxOutputTokens": 16384
-  },
-  {
-    "id": "desktop.strata-iq3xxs-3060",
-    "name": "desktop.strata-iq3xxs-3060",
-    "url": "https://server.tailc63ae8.ts.net:4444/v1",
-    "toolCalling": true,
-    "vision": false,
-    "maxInputTokens": 114688,
-    "maxOutputTokens": 16384
   },
   {
     "id": "desktop.strata-q4km",
@@ -214,40 +178,13 @@
     "maxOutputTokens": 32768
   },
   {
-    "id": "desktop.strata:iq3_s-3060",
-    "name": "desktop.strata:iq3_s-3060",
-    "url": "https://server.tailc63ae8.ts.net:4444/v1",
-    "toolCalling": true,
-    "vision": false,
-    "maxInputTokens": 114688,
-    "maxOutputTokens": 16384
-  },
-  {
     "id": "desktop.strata:q4_k_m",
     "name": "desktop.strata:q4_k_m",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": true,
-    "maxInputTokens": 183616,
-    "maxOutputTokens": 16384
-  },
-  {
-    "id": "desktop.swift-qwen3.8-flash-next:IQ3_XXS",
-    "name": "desktop.swift-qwen3.8-flash-next:IQ3_XXS",
-    "url": "https://server.tailc63ae8.ts.net:4444/v1",
-    "toolCalling": true,
-    "vision": false,
-    "maxInputTokens": 114688,
-    "maxOutputTokens": 16384
-  },
-  {
-    "id": "desktop.swift1.5-qwen3.8-27b",
-    "name": "desktop.swift1.5-qwen3.8-27b",
-    "url": "https://server.tailc63ae8.ts.net:4444/v1",
-    "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 245760,
-    "maxOutputTokens": 16384
+    "maxInputTokens": 1,
+    "maxOutputTokens": 200000
   },
   {
     "id": "desktop.swift1.5-qwen3.8-27b-q4-1",
@@ -284,42 +221,6 @@
     "vision": true,
     "maxInputTokens": 131072,
     "maxOutputTokens": 32768
-  },
-  {
-    "id": "desktop.swift1.5-qwen3.8-27b:Q6_K_L",
-    "name": "desktop.swift1.5-qwen3.8-27b:Q6_K_L",
-    "url": "https://server.tailc63ae8.ts.net:4444/v1",
-    "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 245760,
-    "maxOutputTokens": 16384
-  },
-  {
-    "id": "desktop.swift1.5-qwen3.8-flash-next",
-    "name": "desktop.swift1.5-qwen3.8-flash-next",
-    "url": "https://server.tailc63ae8.ts.net:4444/v1",
-    "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 32768,
-    "maxOutputTokens": 32768
-  },
-  {
-    "id": "desktop.swift1.5-qwen3.8-flash-next:Q4_K_M",
-    "name": "desktop.swift1.5-qwen3.8-flash-next:Q4_K_M",
-    "url": "https://server.tailc63ae8.ts.net:4444/v1",
-    "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 32768,
-    "maxOutputTokens": 32768
-  },
-  {
-    "id": "desktop.swift1.5:27b",
-    "name": "desktop.swift1.5:27b",
-    "url": "https://server.tailc63ae8.ts.net:4444/v1",
-    "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 245760,
-    "maxOutputTokens": 16384
   },
   {
     "id": "desktop.swift1.5:27b-int4-1",
@@ -374,33 +275,6 @@
     "vision": false,
     "maxInputTokens": 147456,
     "maxOutputTokens": 16384
-  },
-  {
-    "id": "desktop.terse-coder-27b",
-    "name": "desktop.terse-coder-27b",
-    "url": "https://server.tailc63ae8.ts.net:4444/v1",
-    "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 245760,
-    "maxOutputTokens": 16384
-  },
-  {
-    "id": "desktop.terse-coder-27b:Q6_K",
-    "name": "desktop.terse-coder-27b:Q6_K",
-    "url": "https://server.tailc63ae8.ts.net:4444/v1",
-    "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 245760,
-    "maxOutputTokens": 16384
-  },
-  {
-    "id": "desktop.terse-coder:27b",
-    "name": "desktop.terse-coder:27b",
-    "url": "https://server.tailc63ae8.ts.net:4444/v1",
-    "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 131072,
-    "maxOutputTokens": 32768
   },
   {
     "id": "desktop2.embeddinggemma-2",
@@ -471,16 +345,7 @@
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": true,
-    "maxInputTokens": 1,
-    "maxOutputTokens": 135168
-  },
-  {
-    "id": "desktop2.qwen3.8-flash-next-iq3_s",
-    "name": "desktop2.qwen3.8-flash-next-iq3_s",
-    "url": "https://server.tailc63ae8.ts.net:4444/v1",
-    "toolCalling": true,
-    "vision": false,
-    "maxInputTokens": 16384,
+    "maxInputTokens": 118784,
     "maxOutputTokens": 16384
   },
   {
