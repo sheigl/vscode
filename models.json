@@ -97,6 +97,15 @@
     "maxOutputTokens": 16384
   },
   {
+    "id": "desktop.muse-q8",
+    "name": "desktop.muse-q8",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": true,
+    "maxInputTokens": 1,
+    "maxOutputTokens": 262144
+  },
+  {
     "id": "desktop.muse:30b",
     "name": "desktop.muse:30b",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
@@ -104,6 +113,15 @@
     "vision": true,
     "maxInputTokens": 114688,
     "maxOutputTokens": 16384
+  },
+  {
+    "id": "desktop.muse:30b-q8",
+    "name": "desktop.muse:30b-q8",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": true,
+    "maxInputTokens": 1,
+    "maxOutputTokens": 262144
   },
   {
     "id": "desktop.phi3.5:mini",
