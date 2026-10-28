@@ -102,8 +102,8 @@
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": true,
-    "maxInputTokens": 1,
-    "maxOutputTokens": 262144
+    "maxInputTokens": 245760,
+    "maxOutputTokens": 16384
   },
   {
     "id": "desktop.muse:30b",
@@ -120,8 +120,8 @@
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": true,
-    "maxInputTokens": 1,
-    "maxOutputTokens": 262144
+    "maxInputTokens": 245760,
+    "maxOutputTokens": 16384
   },
   {
     "id": "desktop.phi3.5:mini",
@@ -309,8 +309,8 @@
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": true,
-    "maxInputTokens": 1,
-    "maxOutputTokens": 131072
+    "maxInputTokens": 114688,
+    "maxOutputTokens": 16384
   },
   {
     "id": "desktop2.ornith1.5:9b",
@@ -456,8 +456,8 @@
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": false,
-    "maxInputTokens": 1,
-    "maxOutputTokens": 65536
+    "maxInputTokens": 49152,
+    "maxOutputTokens": 16384
   },
   {
     "id": "server.qwen3.5-9b-claude",
