@@ -133,26 +133,8 @@
     "maxOutputTokens": 16384
   },
   {
-    "id": "desktop.qwen3.8-flash-next-gsq-rco:IQ3_S",
-    "name": "desktop.qwen3.8-flash-next-gsq-rco:IQ3_S",
-    "url": "https://server.tailc63ae8.ts.net:4444/v1",
-    "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 183616,
-    "maxOutputTokens": 16384
-  },
-  {
     "id": "desktop.qwen3.8-flash-next:Q4_K_M",
     "name": "desktop.qwen3.8-flash-next:Q4_K_M",
-    "url": "https://server.tailc63ae8.ts.net:4444/v1",
-    "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 1,
-    "maxOutputTokens": 200000
-  },
-  {
-    "id": "desktop.strata-iq3s",
-    "name": "desktop.strata-iq3s",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": true,
@@ -162,15 +144,6 @@
   {
     "id": "desktop.strata-q4km",
     "name": "desktop.strata-q4km",
-    "url": "https://server.tailc63ae8.ts.net:4444/v1",
-    "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 167232,
-    "maxOutputTokens": 32768
-  },
-  {
-    "id": "desktop.strata:iq3_s",
-    "name": "desktop.strata:iq3_s",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": true,
@@ -313,13 +286,13 @@
     "maxOutputTokens": 16384
   },
   {
-    "id": "desktop2.muse-glimmer-30b:q4",
-    "name": "desktop2.muse-glimmer-30b:q4",
+    "id": "desktop2.muse-glimmer-30b:q6",
+    "name": "desktop2.muse-glimmer-30b:q6",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": true,
-    "maxInputTokens": 114688,
-    "maxOutputTokens": 16384
+    "maxInputTokens": 1,
+    "maxOutputTokens": 131072
   },
   {
     "id": "desktop2.ornith1.5:9b",
@@ -355,6 +328,15 @@
     "toolCalling": true,
     "vision": true,
     "maxInputTokens": 118784,
+    "maxOutputTokens": 16384
+  },
+  {
+    "id": "desktop2.swift-1.5-qwen3.8-27b:q6",
+    "name": "desktop2.swift-1.5-qwen3.8-27b:q6",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": true,
+    "maxInputTokens": 114688,
     "maxOutputTokens": 16384
   },
   {
