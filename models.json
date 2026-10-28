@@ -43,6 +43,15 @@
     "maxOutputTokens": 16384
   },
   {
+    "id": "desktop.gemma4:31b",
+    "name": "desktop.gemma4:31b",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": true,
+    "maxInputTokens": 114688,
+    "maxOutputTokens": 16384
+  },
+  {
     "id": "desktop.gemma4:e4b",
     "name": "desktop.gemma4:e4b",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
