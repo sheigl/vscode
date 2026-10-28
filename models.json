@@ -156,8 +156,8 @@
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": true,
-    "maxInputTokens": 1,
-    "maxOutputTokens": 200000
+    "maxInputTokens": 167232,
+    "maxOutputTokens": 32768
   },
   {
     "id": "desktop.swift1.5-qwen3.8-27b-q4-1",
