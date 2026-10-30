@@ -57,8 +57,8 @@
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": true,
-    "maxInputTokens": 65536,
-    "maxOutputTokens": 65536
+    "maxInputTokens": 114688,
+    "maxOutputTokens": 16384
   },
   {
     "id": "desktop.gemma4:e4b-no-reasoning",
@@ -178,30 +178,30 @@
     "maxOutputTokens": 16384
   },
   {
-    "id": "desktop.qwen3.8-flash-next:Q4_K_M",
-    "name": "desktop.qwen3.8-flash-next:Q4_K_M",
+    "id": "desktop.qwen3.8-flash-next:UD-Q6_K_XL",
+    "name": "desktop.qwen3.8-flash-next:UD-Q6_K_XL",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 167232,
+    "vision": false,
+    "maxInputTokens": 98304,
     "maxOutputTokens": 32768
   },
   {
-    "id": "desktop.strata-q4km",
-    "name": "desktop.strata-q4km",
+    "id": "desktop.strata-q6",
+    "name": "desktop.strata-q6",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 167232,
+    "vision": false,
+    "maxInputTokens": 98304,
     "maxOutputTokens": 32768
   },
   {
-    "id": "desktop.strata:q4_k_m",
-    "name": "desktop.strata:q4_k_m",
+    "id": "desktop.strata:ud-q6_k_xl",
+    "name": "desktop.strata:ud-q6_k_xl",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 167232,
+    "vision": false,
+    "maxInputTokens": 98304,
     "maxOutputTokens": 32768
   },
   {
@@ -299,7 +299,7 @@
     "name": "desktop2.embeddinggemma-2",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": false,
+    "vision": true,
     "maxInputTokens": 49152,
     "maxOutputTokens": 16384
   },
@@ -308,7 +308,7 @@
     "name": "desktop2.fara1.5",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": false,
+    "vision": true,
     "maxInputTokens": 16384,
     "maxOutputTokens": 16384
   },
@@ -335,7 +335,7 @@
     "name": "desktop2.muse-glimmer-30b:q6",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": false,
+    "vision": true,
     "maxInputTokens": 114688,
     "maxOutputTokens": 16384
   },
@@ -344,7 +344,7 @@
     "name": "desktop2.ornith1.5:9b",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": false,
+    "vision": true,
     "maxInputTokens": 49152,
     "maxOutputTokens": 16384
   },
@@ -353,26 +353,8 @@
     "name": "desktop2.ornith1.5:9b-uncensored",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": false,
+    "vision": true,
     "maxInputTokens": 49152,
-    "maxOutputTokens": 16384
-  },
-  {
-    "id": "desktop2.qwen3-embedding-4b",
-    "name": "desktop2.qwen3-embedding-4b",
-    "url": "https://server.tailc63ae8.ts.net:4444/v1",
-    "toolCalling": true,
-    "vision": false,
-    "maxInputTokens": 1,
-    "maxOutputTokens": 8192
-  },
-  {
-    "id": "desktop2.qwen3-reranking-4b",
-    "name": "desktop2.qwen3-reranking-4b",
-    "url": "https://server.tailc63ae8.ts.net:4444/v1",
-    "toolCalling": true,
-    "vision": false,
-    "maxInputTokens": 1,
     "maxOutputTokens": 16384
   },
   {
@@ -389,7 +371,7 @@
     "name": "desktop2.swift-1.5-qwen3.8-27b:q4",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": false,
+    "vision": true,
     "maxInputTokens": 118784,
     "maxOutputTokens": 16384
   },
@@ -428,7 +410,9 @@
     "name": "qwen3.8-27b:q4",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": false
+    "vision": true,
+    "maxInputTokens": 118784,
+    "maxOutputTokens": 16384
   },
   {
     "id": "server.bonsai-27b-q1",
