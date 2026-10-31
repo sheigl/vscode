@@ -1,7 +1,14 @@
 [
   {
-    "id": "assistant",
-    "name": "assistant",
+    "id": "clyde",
+    "name": "clyde",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
+  },
+  {
+    "id": "desktop.comfyui_auto",
+    "name": "desktop.comfyui_auto",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": false
@@ -11,72 +18,56 @@
     "name": "desktop.fara1.5",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 8192,
-    "maxOutputTokens": 16384
+    "vision": false
   },
   {
     "id": "desktop.fara1.5:9b",
     "name": "desktop.fara1.5:9b",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 8192,
-    "maxOutputTokens": 16384
+    "vision": false
   },
   {
     "id": "desktop.gemma4:12b",
     "name": "desktop.gemma4:12b",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": false,
-    "maxInputTokens": 49152,
-    "maxOutputTokens": 16384
+    "vision": false
   },
   {
     "id": "desktop.gemma4:12b-no-reasoning",
     "name": "desktop.gemma4:12b-no-reasoning",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 49152,
-    "maxOutputTokens": 16384
+    "vision": false
   },
   {
     "id": "desktop.gemma4:31b",
     "name": "desktop.gemma4:31b",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 183616,
-    "maxOutputTokens": 16384
+    "vision": false
   },
   {
     "id": "desktop.gemma4:e4b",
     "name": "desktop.gemma4:e4b",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 114688,
-    "maxOutputTokens": 16384
+    "vision": false
   },
   {
     "id": "desktop.gemma4:e4b-no-reasoning",
     "name": "desktop.gemma4:e4b-no-reasoning",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 114688,
-    "maxOutputTokens": 16384
+    "vision": false
   },
   {
     "id": "desktop.ibm-granite4.1:3b",
     "name": "desktop.ibm-granite4.1:3b",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": false,
-    "maxInputTokens": 49154,
-    "maxOutputTokens": 16384
+    "vision": false
   },
   {
     "id": "desktop.k2-horizon-7b",
@@ -84,143 +75,126 @@
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": false,
-    "maxInputTokens": 32768,
-    "maxOutputTokens": 32768
+    "maxInputTokens": 49152,
+    "maxOutputTokens": 16384
   },
   {
     "id": "desktop.lfm2.5-vl",
     "name": "desktop.lfm2.5-vl",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 16384,
-    "maxOutputTokens": 16384
+    "vision": false
   },
   {
     "id": "desktop.lfm2.5-vl:3b",
     "name": "desktop.lfm2.5-vl:3b",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 16384,
-    "maxOutputTokens": 16384
+    "vision": false
   },
   {
     "id": "desktop.liquid-d1:3b",
     "name": "desktop.liquid-d1:3b",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 16384,
-    "maxOutputTokens": 16384
+    "vision": false
   },
   {
     "id": "desktop.magentic-brain",
     "name": "desktop.magentic-brain",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": false,
-    "maxInputTokens": 16384,
-    "maxOutputTokens": 16384
+    "vision": false
   },
   {
     "id": "desktop.muse-q8",
     "name": "desktop.muse-q8",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 245760,
-    "maxOutputTokens": 16384
+    "vision": false
   },
   {
     "id": "desktop.muse:30b",
     "name": "desktop.muse:30b",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 183616,
-    "maxOutputTokens": 16384
+    "vision": false
   },
   {
     "id": "desktop.muse:30b-q8",
     "name": "desktop.muse:30b-q8",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 245760,
-    "maxOutputTokens": 16384
+    "vision": false
+  },
+  {
+    "id": "desktop.mxbai-embed-large",
+    "name": "desktop.mxbai-embed-large",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
   },
   {
     "id": "desktop.phi3.5:mini",
     "name": "desktop.phi3.5:mini",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": false,
-    "maxInputTokens": 49154,
-    "maxOutputTokens": 16384
+    "vision": false
   },
   {
     "id": "desktop.qwen3.5:9b",
     "name": "desktop.qwen3.5:9b",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 114688,
-    "maxOutputTokens": 16384
+    "vision": false
   },
   {
     "id": "desktop.qwen3.5:9b-no-reasoning",
     "name": "desktop.qwen3.5:9b-no-reasoning",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 114688,
-    "maxOutputTokens": 16384
+    "vision": false
   },
   {
     "id": "desktop.qwen3.8-flash-next:Q5_K_M",
     "name": "desktop.qwen3.8-flash-next:Q5_K_M",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": false,
-    "maxInputTokens": 98304,
-    "maxOutputTokens": 32768
+    "vision": true,
+    "maxInputTokens": 114688,
+    "maxOutputTokens": 16384
   },
   {
     "id": "desktop.strata-q5",
     "name": "desktop.strata-q5",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": false,
-    "maxInputTokens": 98304,
-    "maxOutputTokens": 32768
+    "vision": true,
+    "maxInputTokens": 114688,
+    "maxOutputTokens": 16384
   },
   {
     "id": "desktop.strata:q5_k_m",
     "name": "desktop.strata:q5_k_m",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": false,
-    "maxInputTokens": 98304,
-    "maxOutputTokens": 32768
+    "vision": true,
+    "maxInputTokens": 114688,
+    "maxOutputTokens": 16384
   },
   {
     "id": "desktop.swift1.5-qwen3.8-27b-q4-1",
     "name": "desktop.swift1.5-qwen3.8-27b-q4-1",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 147456,
-    "maxOutputTokens": 16384
+    "vision": false
   },
   {
     "id": "desktop.swift1.5-qwen3.8-27b-q4-2",
     "name": "desktop.swift1.5-qwen3.8-27b-q4-2",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 147456,
-    "maxOutputTokens": 16384
+    "vision": false
   },
   {
     "id": "desktop.swift1.5-qwen3.8-27b-vllm-1",
@@ -228,8 +202,8 @@
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": true,
-    "maxInputTokens": 131072,
-    "maxOutputTokens": 32768
+    "maxInputTokens": 147456,
+    "maxOutputTokens": 16384
   },
   {
     "id": "desktop.swift1.5-qwen3.8-27b-vllm-2",
@@ -237,267 +211,432 @@
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": true,
-    "maxInputTokens": 131072,
-    "maxOutputTokens": 32768
+    "maxInputTokens": 147456,
+    "maxOutputTokens": 16384
   },
   {
     "id": "desktop.swift1.5:27b-int4-1",
     "name": "desktop.swift1.5:27b-int4-1",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": false,
-    "maxInputTokens": 147456,
-    "maxOutputTokens": 16384
+    "vision": false
   },
   {
     "id": "desktop.swift1.5:27b-int4-2",
     "name": "desktop.swift1.5:27b-int4-2",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": false,
-    "maxInputTokens": 147456,
-    "maxOutputTokens": 16384
+    "vision": false
   },
   {
     "id": "desktop.swift1.5:27b-q4-1",
     "name": "desktop.swift1.5:27b-q4-1",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 147456,
-    "maxOutputTokens": 16384
+    "vision": false
   },
   {
     "id": "desktop.swift1.5:27b-q4-2",
     "name": "desktop.swift1.5:27b-q4-2",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 147456,
-    "maxOutputTokens": 16384
+    "vision": false
   },
   {
     "id": "desktop.swift1.5:27b-vllm-1",
     "name": "desktop.swift1.5:27b-vllm-1",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": false,
-    "maxInputTokens": 147456,
-    "maxOutputTokens": 16384
+    "vision": false
   },
   {
     "id": "desktop.swift1.5:27b-vllm-2",
     "name": "desktop.swift1.5:27b-vllm-2",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": false,
-    "maxInputTokens": 147456,
-    "maxOutputTokens": 16384
+    "vision": false
+  },
+  {
+    "id": "desktop2.comfyui_auto",
+    "name": "desktop2.comfyui_auto",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
   },
   {
     "id": "desktop2.embeddinggemma-2",
     "name": "desktop2.embeddinggemma-2",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 49152,
-    "maxOutputTokens": 16384
+    "vision": false
   },
   {
     "id": "desktop2.fara1.5",
     "name": "desktop2.fara1.5",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 16384,
-    "maxOutputTokens": 16384
+    "vision": false
   },
   {
     "id": "desktop2.flint:q4",
     "name": "desktop2.flint:q4",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": false,
-    "maxInputTokens": 114688,
-    "maxOutputTokens": 16384
+    "vision": false
   },
   {
     "id": "desktop2.ibm-granite4.1:3b",
     "name": "desktop2.ibm-granite4.1:3b",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": false,
-    "maxInputTokens": 49152,
-    "maxOutputTokens": 16384
+    "vision": false
   },
   {
     "id": "desktop2.muse-glimmer-30b:q6",
     "name": "desktop2.muse-glimmer-30b:q6",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 114688,
-    "maxOutputTokens": 16384
+    "vision": false
   },
   {
     "id": "desktop2.ornith1.5:9b",
     "name": "desktop2.ornith1.5:9b",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 49152,
-    "maxOutputTokens": 16384
+    "vision": false
   },
   {
     "id": "desktop2.ornith1.5:9b-uncensored",
     "name": "desktop2.ornith1.5:9b-uncensored",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 49152,
-    "maxOutputTokens": 16384
+    "vision": false
+  },
+  {
+    "id": "desktop2.qwen3-embedding-4b",
+    "name": "desktop2.qwen3-embedding-4b",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
+  },
+  {
+    "id": "desktop2.qwen3-reranking-4b",
+    "name": "desktop2.qwen3-reranking-4b",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
   },
   {
     "id": "desktop2.qwen3.8-27b:q4",
     "name": "desktop2.qwen3.8-27b:q4",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 118784,
-    "maxOutputTokens": 16384
+    "vision": true
   },
   {
     "id": "desktop2.swift-1.5-qwen3.8-27b:q4",
     "name": "desktop2.swift-1.5-qwen3.8-27b:q4",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 118784,
-    "maxOutputTokens": 16384
+    "vision": false
   },
   {
     "id": "desktop2.swift-1.5-qwen3.8-27b:q6",
     "name": "desktop2.swift-1.5-qwen3.8-27b:q6",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 114688,
-    "maxOutputTokens": 16384
+    "vision": true
   },
   {
-    "id": "github_copilot/gpt-5",
-    "name": "github_copilot/gpt-5",
+    "id": "go.beam-free",
+    "name": "go.beam-free",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": false
   },
   {
-    "id": "k2-horizon-7b",
-    "name": "k2-horizon-7b",
+    "id": "go.claude-haiku-5-5",
+    "name": "go.claude-haiku-5-5",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": false
   },
   {
-    "id": "pooled",
-    "name": "pooled",
+    "id": "go.deepseek-v4-pro",
+    "name": "go.deepseek-v4-pro",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": false
   },
   {
-    "id": "qwen3.8-27b:q4",
-    "name": "qwen3.8-27b:q4",
+    "id": "go.deepseek-v4.1-flash",
+    "name": "go.deepseek-v4.1-flash",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 118784,
-    "maxOutputTokens": 16384
+    "vision": false
+  },
+  {
+    "id": "go.gemini-4-argon",
+    "name": "go.gemini-4-argon",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
+  },
+  {
+    "id": "go.glm-5.2",
+    "name": "go.glm-5.2",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
+  },
+  {
+    "id": "go.glm-5.3",
+    "name": "go.glm-5.3",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
+  },
+  {
+    "id": "go.glm-5.3-flash",
+    "name": "go.glm-5.3-flash",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
+  },
+  {
+    "id": "go.gpt-5.6-luna",
+    "name": "go.gpt-5.6-luna",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
+  },
+  {
+    "id": "go.gpt-6-luna",
+    "name": "go.gpt-6-luna",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
+  },
+  {
+    "id": "go.grok-4.7",
+    "name": "go.grok-4.7",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
+  },
+  {
+    "id": "go.hy3",
+    "name": "go.hy3",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
+  },
+  {
+    "id": "go.hy4-preview",
+    "name": "go.hy4-preview",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
+  },
+  {
+    "id": "go.iceman-contributor-free",
+    "name": "go.iceman-contributor-free",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
+  },
+  {
+    "id": "go.kimi-k2.7-code",
+    "name": "go.kimi-k2.7-code",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
+  },
+  {
+    "id": "go.kimi-k3",
+    "name": "go.kimi-k3",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
+  },
+  {
+    "id": "go.kimi-k3.1-pro",
+    "name": "go.kimi-k3.1-pro",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
+  },
+  {
+    "id": "go.longcat-2.0",
+    "name": "go.longcat-2.0",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
+  },
+  {
+    "id": "go.mimo-v2.6-flash",
+    "name": "go.mimo-v2.6-flash",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
+  },
+  {
+    "id": "go.mimo-v2.6-pro",
+    "name": "go.mimo-v2.6-pro",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
+  },
+  {
+    "id": "go.minimax-m3",
+    "name": "go.minimax-m3",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
+  },
+  {
+    "id": "go.minimax-m3.1-flash",
+    "name": "go.minimax-m3.1-flash",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
+  },
+  {
+    "id": "go.muse-spark-1.2-contributor",
+    "name": "go.muse-spark-1.2-contributor",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
+  },
+  {
+    "id": "go.muse-spark-1.3-contributor",
+    "name": "go.muse-spark-1.3-contributor",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
+  },
+  {
+    "id": "go.qwen3.7-plus",
+    "name": "go.qwen3.7-plus",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
+  },
+  {
+    "id": "go.qwen3.8-flash",
+    "name": "go.qwen3.8-flash",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
+  },
+  {
+    "id": "go.qwen3.8-max",
+    "name": "go.qwen3.8-max",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
+  },
+  {
+    "id": "go.step-5-preview",
+    "name": "go.step-5-preview",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
+  },
+  {
+    "id": "oracle",
+    "name": "oracle",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
   },
   {
     "id": "server.bonsai-27b-q1",
     "name": "server.bonsai-27b-q1",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": false,
-    "maxInputTokens": 16384,
-    "maxOutputTokens": 16384
+    "vision": false
   },
   {
     "id": "server.bonsai-27b-q2",
     "name": "server.bonsai-27b-q2",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": false,
-    "maxInputTokens": 16384,
-    "maxOutputTokens": 16384
+    "vision": false
+  },
+  {
+    "id": "server.d1-3b",
+    "name": "server.d1-3b",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
+  },
+  {
+    "id": "server.embedding-4b",
+    "name": "server.embedding-4b",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
+  },
+  {
+    "id": "server.embeddinggemma-2",
+    "name": "server.embeddinggemma-2",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
   },
   {
     "id": "server.gemma-4-E2B",
     "name": "server.gemma-4-E2B",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 16384,
-    "maxOutputTokens": 16384
+    "vision": false
   },
   {
     "id": "server.granite-4.1-3b",
     "name": "server.granite-4.1-3b",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": false,
-    "maxInputTokens": 16384,
-    "maxOutputTokens": 16384
+    "vision": false
   },
   {
     "id": "server.muse:30b",
     "name": "server.muse:30b",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": false,
-    "maxInputTokens": 16384,
-    "maxOutputTokens": 16384
+    "vision": false
   },
   {
     "id": "server.qwen3-4b",
     "name": "server.qwen3-4b",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": false,
-    "maxInputTokens": 16384,
-    "maxOutputTokens": 16384
+    "vision": false
   },
   {
     "id": "server.qwen3.5-4b",
     "name": "server.qwen3.5-4b",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": false,
-    "maxInputTokens": 16384,
-    "maxOutputTokens": 16384
+    "vision": false
   },
   {
     "id": "server.qwen3.5-9b",
     "name": "server.qwen3.5-9b",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": false,
-    "maxInputTokens": 49152,
-    "maxOutputTokens": 16384
+    "vision": false
   },
   {
     "id": "server.qwen3.5-9b-claude",
     "name": "server.qwen3.5-9b-claude",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": false,
-    "maxInputTokens": 49152,
-    "maxOutputTokens": 16384
+    "vision": false
   },
   {
-    "id": "summarizer",
-    "name": "summarizer",
+    "id": "server.reranker-4b",
+    "name": "server.reranker-4b",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": false
