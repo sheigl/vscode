@@ -4,7 +4,9 @@
     "name": "clyde",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": false
+    "vision": false,
+    "maxInputTokens": 114688,
+    "maxOutputTokens": 16384
   },
   {
     "id": "desktop.comfyui_auto",
@@ -97,7 +99,9 @@
     "name": "desktop.liquid-d1:3b",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": false
+    "vision": false,
+    "maxInputTokens": 16384,
+    "maxOutputTokens": 16384
   },
   {
     "id": "desktop.magentic-brain",
@@ -116,6 +120,13 @@
   {
     "id": "desktop.muse:30b",
     "name": "desktop.muse:30b",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
+  },
+  {
+    "id": "desktop.muse:30b-q6",
+    "name": "desktop.muse:30b-q6",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": false
@@ -156,31 +167,34 @@
     "vision": false
   },
   {
+    "id": "desktop.qwen3.8-flash-next:Q4_K_XL",
+    "name": "desktop.qwen3.8-flash-next:Q4_K_XL",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
+  },
+  {
     "id": "desktop.qwen3.8-flash-next:Q5_K_M",
     "name": "desktop.qwen3.8-flash-next:Q5_K_M",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": true,
-    "maxInputTokens": 98304,
-    "maxOutputTokens": 32768
+    "maxInputTokens": 114688,
+    "maxOutputTokens": 16384
   },
   {
     "id": "desktop.strata-q5",
     "name": "desktop.strata-q5",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 98304,
-    "maxOutputTokens": 32768
+    "vision": false
   },
   {
     "id": "desktop.strata:q5_k_m",
     "name": "desktop.strata:q5_k_m",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 98304,
-    "maxOutputTokens": 32768
+    "vision": false
   },
   {
     "id": "desktop.swift1.5-qwen3.8-27b-q4-1",
@@ -296,7 +310,9 @@
     "name": "desktop2.muse-glimmer-30b:q6",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": false
+    "vision": false,
+    "maxInputTokens": 114688,
+    "maxOutputTokens": 16384
   },
   {
     "id": "desktop2.ornith1.5:9b",
@@ -345,7 +361,9 @@
     "name": "desktop2.swift-1.5-qwen3.8-27b:q6",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true
+    "vision": true,
+    "maxInputTokens": 114688,
+    "maxOutputTokens": 16384
   },
   {
     "id": "go.beam-free",
@@ -548,7 +566,9 @@
     "name": "oracle",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": false
+    "vision": false,
+    "maxInputTokens": 114688,
+    "maxOutputTokens": 16384
   },
   {
     "id": "server.bonsai-27b-q1",
@@ -569,7 +589,9 @@
     "name": "server.d1-3b",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": false
+    "vision": false,
+    "maxInputTokens": 16384,
+    "maxOutputTokens": 16384
   },
   {
     "id": "server.embedding-4b",
