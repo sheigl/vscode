@@ -118,13 +118,6 @@
     "vision": false
   },
   {
-    "id": "desktop.muse:30b",
-    "name": "desktop.muse:30b",
-    "url": "https://server.tailc63ae8.ts.net:4444/v1",
-    "toolCalling": true,
-    "vision": false
-  },
-  {
     "id": "desktop.muse:30b-q6",
     "name": "desktop.muse:30b-q6",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
@@ -181,20 +174,6 @@
     "vision": true,
     "maxInputTokens": 114688,
     "maxOutputTokens": 16384
-  },
-  {
-    "id": "desktop.strata-q5",
-    "name": "desktop.strata-q5",
-    "url": "https://server.tailc63ae8.ts.net:4444/v1",
-    "toolCalling": true,
-    "vision": false
-  },
-  {
-    "id": "desktop.strata:q5_k_m",
-    "name": "desktop.strata:q5_k_m",
-    "url": "https://server.tailc63ae8.ts.net:4444/v1",
-    "toolCalling": true,
-    "vision": false
   },
   {
     "id": "desktop.swift1.5-qwen3.8-27b-q4-1",
