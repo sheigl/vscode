@@ -167,15 +167,6 @@
     "vision": false
   },
   {
-    "id": "desktop.qwen3.8-flash-next:Q5_K_M",
-    "name": "desktop.qwen3.8-flash-next:Q5_K_M",
-    "url": "https://server.tailc63ae8.ts.net:4444/v1",
-    "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 114688,
-    "maxOutputTokens": 16384
-  },
-  {
     "id": "desktop.swift1.5-qwen3.8-27b-q4-1",
     "name": "desktop.swift1.5-qwen3.8-27b-q4-1",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
