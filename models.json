@@ -276,6 +276,27 @@
     "vision": false
   },
   {
+    "id": "desktop2.lfm2.5-vl-3b",
+    "name": "desktop2.lfm2.5-vl-3b",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
+  },
+  {
+    "id": "desktop2.lfm2.5-vl-3b:sycl1",
+    "name": "desktop2.lfm2.5-vl-3b:sycl1",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
+  },
+  {
+    "id": "desktop2.lfm2.5-vl-3b:sycl2",
+    "name": "desktop2.lfm2.5-vl-3b:sycl2",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
+  },
+  {
     "id": "desktop2.muse-glimmer-30b:q6",
     "name": "desktop2.muse-glimmer-30b:q6",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
