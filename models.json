@@ -164,7 +164,7 @@
     "name": "desktop.qwen3.8-flash-next:Q4_K_XL",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": false
+    "vision": true
   },
   {
     "id": "desktop.swift1.5-qwen3.8-27b-q4-1",
