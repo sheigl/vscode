@@ -191,7 +191,7 @@
     "name": "desktop.qwen3.8-flash-next:Q4_K_M-strata",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
+    "vision": false,
     "maxInputTokens": 183616,
     "maxOutputTokens": 16384
   },
@@ -209,16 +209,14 @@
     "name": "desktop.qwen3.8-flash-next:Q4_K_XL-llamacpp",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 245760,
-    "maxOutputTokens": 16384
+    "vision": false
   },
   {
     "id": "desktop.qwen3.8-flash-next:Q4_K_XL-strata",
     "name": "desktop.qwen3.8-flash-next:Q4_K_XL-strata",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
+    "vision": false,
     "maxInputTokens": 114688,
     "maxOutputTokens": 16384
   },
@@ -227,7 +225,7 @@
     "name": "desktop.qwen3.8-flash-next:Swift-Q4_K_M",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
+    "vision": false,
     "maxInputTokens": 183616,
     "maxOutputTokens": 16384
   },
@@ -236,7 +234,7 @@
     "name": "desktop.strata-swift-q4km",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
+    "vision": false,
     "maxInputTokens": 183616,
     "maxOutputTokens": 16384
   },
