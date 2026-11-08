@@ -239,6 +239,15 @@
     "maxOutputTokens": 16384
   },
   {
+    "id": "desktop2.swift-qwen3.8-flash-next",
+    "name": "desktop2.swift-qwen3.8-flash-next",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false,
+    "maxInputTokens": 114688,
+    "maxOutputTokens": 16384
+  },
+  {
     "id": "go.beam-free",
     "name": "go.beam-free",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
