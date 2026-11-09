@@ -152,7 +152,7 @@
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": false,
-    "maxInputTokens": 16384,
+    "maxInputTokens": 49152,
     "maxOutputTokens": 16384
   },
   {
