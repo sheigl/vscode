@@ -77,6 +77,15 @@
     "maxOutputTokens": 16384
   },
   {
+    "id": "desktop.qwen3.8-flash-next:Q4_K_XL-llamacpp",
+    "name": "desktop.qwen3.8-flash-next:Q4_K_XL-llamacpp",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": true,
+    "maxInputTokens": 188416,
+    "maxOutputTokens": 16384
+  },
+  {
     "id": "desktop.swift1.5-qwen3.8-27b-q4-1",
     "name": "desktop.swift1.5-qwen3.8-27b-q4-1",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
@@ -122,6 +131,13 @@
     "maxOutputTokens": 16384
   },
   {
+    "id": "desktop2.ace-step",
+    "name": "desktop2.ace-step",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
+  },
+  {
     "id": "desktop2.comfyui_auto",
     "name": "desktop2.comfyui_auto",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
@@ -136,6 +152,13 @@
     "vision": true,
     "maxInputTokens": 16384,
     "maxOutputTokens": 16384
+  },
+  {
+    "id": "desktop2.heartmula",
+    "name": "desktop2.heartmula",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
   },
   {
     "id": "desktop2.ibm-granite4.1:3b",
@@ -183,6 +206,13 @@
     "maxOutputTokens": 16384
   },
   {
+    "id": "desktop2.minimax-music3",
+    "name": "desktop2.minimax-music3",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
+  },
+  {
     "id": "desktop2.qwen3.8-27b:q4",
     "name": "desktop2.qwen3.8-27b:q4",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
@@ -192,6 +222,20 @@
     "maxOutputTokens": 16384
   },
   {
+    "id": "desktop2.sheetsage2",
+    "name": "desktop2.sheetsage2",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
+  },
+  {
+    "id": "desktop2.stable-audio",
+    "name": "desktop2.stable-audio",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
+  },
+  {
     "id": "desktop2.swift-qwen3.8-flash-next",
     "name": "desktop2.swift-qwen3.8-flash-next",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
@@ -199,6 +243,13 @@
     "vision": false,
     "maxInputTokens": 114688,
     "maxOutputTokens": 16384
+  },
+  {
+    "id": "desktop2.yue2-q8",
+    "name": "desktop2.yue2-q8",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false
   },
   {
     "id": "go.beam-free",
