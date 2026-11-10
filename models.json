@@ -77,12 +77,30 @@
     "maxOutputTokens": 16384
   },
   {
+    "id": "desktop.qwen3.8-flash-next:Q4_K_XL",
+    "name": "desktop.qwen3.8-flash-next:Q4_K_XL",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": true,
+    "maxInputTokens": 183616,
+    "maxOutputTokens": 16384
+  },
+  {
     "id": "desktop.qwen3.8-flash-next:Q4_K_XL-llamacpp",
     "name": "desktop.qwen3.8-flash-next:Q4_K_XL-llamacpp",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": true,
     "maxInputTokens": 188416,
+    "maxOutputTokens": 16384
+  },
+  {
+    "id": "desktop.qwen3.8-flash-next:Q4_K_XL-strata",
+    "name": "desktop.qwen3.8-flash-next:Q4_K_XL-strata",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": true,
+    "maxInputTokens": 183616,
     "maxOutputTokens": 16384
   },
   {
@@ -460,7 +478,7 @@
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": false,
-    "maxInputTokens": 183616,
+    "maxInputTokens": 188416,
     "maxOutputTokens": 16384
   },
   {
