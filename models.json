@@ -172,6 +172,15 @@
     "maxOutputTokens": 16384
   },
   {
+    "id": "desktop2.gemma-4-12b:q5",
+    "name": "desktop2.gemma-4-12b:q5",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": true,
+    "maxInputTokens": 16384,
+    "maxOutputTokens": 16384
+  },
+  {
     "id": "desktop2.heartmula",
     "name": "desktop2.heartmula",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
@@ -229,6 +238,15 @@
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": false
+  },
+  {
+    "id": "desktop2.muse-glimmer-30b:q4",
+    "name": "desktop2.muse-glimmer-30b:q4",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": true,
+    "maxInputTokens": 49152,
+    "maxOutputTokens": 16384
   },
   {
     "id": "desktop2.qwen3.8-27b:q4",
