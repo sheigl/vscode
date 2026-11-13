@@ -240,24 +240,6 @@
     "vision": false
   },
   {
-    "id": "desktop2.muse-glimmer-30b:q3",
-    "name": "desktop2.muse-glimmer-30b:q3",
-    "url": "https://server.tailc63ae8.ts.net:4444/v1",
-    "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 49152,
-    "maxOutputTokens": 16384
-  },
-  {
-    "id": "desktop2.qwen3.6-35b-a3b:ud-q6_k_xl",
-    "name": "desktop2.qwen3.6-35b-a3b:ud-q6_k_xl",
-    "url": "https://server.tailc63ae8.ts.net:4444/v1",
-    "toolCalling": true,
-    "vision": false,
-    "maxInputTokens": 16384,
-    "maxOutputTokens": 16384
-  },
-  {
     "id": "desktop2.qwen3.8-27b:iq3xxs",
     "name": "desktop2.qwen3.8-27b:iq3xxs",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
@@ -279,15 +261,6 @@
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": false
-  },
-  {
-    "id": "desktop2.tiel-coder-35b-a3b:ud-q6_k_xl",
-    "name": "desktop2.tiel-coder-35b-a3b:ud-q6_k_xl",
-    "url": "https://server.tailc63ae8.ts.net:4444/v1",
-    "toolCalling": true,
-    "vision": false,
-    "maxInputTokens": 16384,
-    "maxOutputTokens": 16384
   },
   {
     "id": "desktop2.yue2-q8",
