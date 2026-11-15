@@ -84,7 +84,7 @@
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": true,
-    "maxInputTokens": 507904,
+    "maxInputTokens": 376832,
     "maxOutputTokens": 16384
   },
   {
@@ -223,6 +223,15 @@
     "toolCalling": true,
     "vision": false,
     "maxInputTokens": 49152,
+    "maxOutputTokens": 16384
+  },
+  {
+    "id": "desktop2.lfm-2.5-24b:UD-Q6_K_XL",
+    "name": "desktop2.lfm-2.5-24b:UD-Q6_K_XL",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false,
+    "maxInputTokens": 16384,
     "maxOutputTokens": 16384
   },
   {
