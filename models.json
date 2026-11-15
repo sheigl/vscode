@@ -4,7 +4,9 @@
     "name": "clyde",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": false
+    "vision": true,
+    "maxInputTokens": 49152,
+    "maxOutputTokens": 16384
   },
   {
     "id": "desktop.comfyui_auto",
@@ -74,6 +76,15 @@
     "toolCalling": true,
     "vision": true,
     "maxInputTokens": 245760,
+    "maxOutputTokens": 16384
+  },
+  {
+    "id": "desktop.qwen3.8-27b:UD-Q6_K_L",
+    "name": "desktop.qwen3.8-27b:UD-Q6_K_L",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": true,
+    "maxInputTokens": 507904,
     "maxOutputTokens": 16384
   },
   {
@@ -217,24 +228,6 @@
   {
     "id": "desktop2.lfm2.5-vl-3b",
     "name": "desktop2.lfm2.5-vl-3b",
-    "url": "https://server.tailc63ae8.ts.net:4444/v1",
-    "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 16384,
-    "maxOutputTokens": 16384
-  },
-  {
-    "id": "desktop2.lfm2.5-vl-3b:sycl1",
-    "name": "desktop2.lfm2.5-vl-3b:sycl1",
-    "url": "https://server.tailc63ae8.ts.net:4444/v1",
-    "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 16384,
-    "maxOutputTokens": 16384
-  },
-  {
-    "id": "desktop2.lfm2.5-vl-3b:sycl2",
-    "name": "desktop2.lfm2.5-vl-3b:sycl2",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": true,
@@ -488,16 +481,16 @@
     "name": "oracle",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": false
+    "vision": true,
+    "maxInputTokens": 49152,
+    "maxOutputTokens": 16384
   },
   {
     "id": "qwen",
     "name": "qwen",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": false,
-    "maxInputTokens": 188416,
-    "maxOutputTokens": 16384
+    "vision": false
   },
   {
     "id": "server.bonsai-27b-q1",
