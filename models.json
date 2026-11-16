@@ -79,6 +79,24 @@
     "maxOutputTokens": 16384
   },
   {
+    "id": "desktop.nanbeige4.3-33b:Q6_K_L",
+    "name": "desktop.nanbeige4.3-33b:Q6_K_L",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false,
+    "maxInputTokens": 180224,
+    "maxOutputTokens": 16384
+  },
+  {
+    "id": "desktop.nanbeige:33b-q6",
+    "name": "desktop.nanbeige:33b-q6",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false,
+    "maxInputTokens": 180224,
+    "maxOutputTokens": 16384
+  },
+  {
     "id": "desktop.qwen3.8-27b:UD-Q6_K_L",
     "name": "desktop.qwen3.8-27b:UD-Q6_K_L",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
@@ -174,6 +192,15 @@
     "vision": false
   },
   {
+    "id": "desktop2.cyber-tiel-coder-35b-a3b:UD-Q4_K_XL",
+    "name": "desktop2.cyber-tiel-coder-35b-a3b:UD-Q4_K_XL",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": true,
+    "maxInputTokens": 49152,
+    "maxOutputTokens": 16384
+  },
+  {
     "id": "desktop2.fara1.5",
     "name": "desktop2.fara1.5",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
@@ -249,24 +276,6 @@
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": false
-  },
-  {
-    "id": "desktop2.muse-glimmer-30b:iq3xxs",
-    "name": "desktop2.muse-glimmer-30b:iq3xxs",
-    "url": "https://server.tailc63ae8.ts.net:4444/v1",
-    "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 49152,
-    "maxOutputTokens": 16384
-  },
-  {
-    "id": "desktop2.qwen3.8-27b:iq3xxs",
-    "name": "desktop2.qwen3.8-27b:iq3xxs",
-    "url": "https://server.tailc63ae8.ts.net:4444/v1",
-    "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 49152,
-    "maxOutputTokens": 16384
   },
   {
     "id": "desktop2.sheetsage2",
