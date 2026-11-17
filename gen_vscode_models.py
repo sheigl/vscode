@@ -37,6 +37,25 @@ Apply reads models.json from MODELS_JSON when that is set.
 It imports gen_litellm_models from ~/.config/opencode/scripts (override with the
 OPENCODE_SCRIPTS_DIR env var if that path differs).
 
+Overriding what litellm reports:
+
+    Both scripts read the `overrides` block of
+    ~/.config/opencode/scripts/config.json, keyed by the exact litellm model id.
+    That config is shared, so an override there changes both output files.
+
+    config.json next to this script adds overrides that apply to the VS Code file
+    ONLY, merged per key on top of the shared ones (VSCODE_CONFIG moves it):
+
+        {
+          "overrides": {
+            "some.model": {"context": 200000, "output": 32768, "vision": true}
+          }
+        }
+
+    context, output and vision all beat both llama-swap and litellm metadata.
+    reasoning and tool_call do not: whenever llama-swap has data for a model they
+    are taken from it and an override of those two is ignored.
+
 Generate reads the url already written into either models file so a new
 endpoint keeps pointing at the same server.
 """
@@ -62,6 +81,7 @@ glm = None
 USER_DIR = os.path.expanduser(os.path.join("~", ".config", "Code", "User"))
 DEFAULT_MODELS_PATH = os.path.join(USER_DIR, "models.json")
 DEFAULT_TARGET_PATH = os.path.join(USER_DIR, "chatLanguageModels.json")
+DEFAULT_CONFIG_PATH = os.path.join(USER_DIR, "config.json")
 
 
 def load_shared():
@@ -93,7 +113,13 @@ def build_model_entry(model_id: str, caps: dict, defaults: dict, url: str) -> di
     context = caps.get("context")
     if context:
         output = caps.get("output") or int(defaults.get("max_output") or 8192)
-        output = min(output, int(context))
+        # litellm's model_info.max_output_tokens is sometimes really the context
+        # window. Clamping that to the context leaves maxInputTokens at 1, which
+        # makes Continue compact on the first turn. Mirror the OpenCode
+        # generator: fall back to defaults.max_output, then clamp.
+        if int(output) >= int(context):
+            output = int(defaults.get("max_output") or 8192)
+        output = min(int(output), int(context))
         entry["maxInputTokens"] = max(int(context) - output, 1)
         entry["maxOutputTokens"] = output
 
@@ -166,6 +192,44 @@ def write_json(path: str, data) -> None:
     with open(path, "w", encoding="utf-8") as fh:
         json.dump(data, fh, indent=2)
         fh.write("\n")
+
+
+def load_local_overrides(path: str) -> dict:
+    """Read the VS Code-only `overrides` block from config.json, which sits on
+    top of the shared one. Missing file is fine; a broken one is not."""
+    try:
+        with open(path, encoding="utf-8") as fh:
+            data = json.load(fh)
+    except FileNotFoundError:
+        return {}
+    except (OSError, json.JSONDecodeError) as exc:
+        print(f"Ignoring {path}: {exc}", file=sys.stderr)
+        return {}
+    if not isinstance(data, dict):
+        print(f"Ignoring {path}: expected a JSON object at the top level.", file=sys.stderr)
+        return {}
+    overrides = data.get("overrides") or {}
+    if not isinstance(overrides, dict):
+        print(f"Ignoring {path}: 'overrides' must be an object keyed by model id.", file=sys.stderr)
+        return {}
+    return overrides
+
+
+def merge_overrides(shared: dict, local: dict) -> dict:
+    """Per-model, per-key merge, local winning. A VS Code override only has to
+    name the one thing it changes; the rest of the model's shared override and
+    the keys the other script shares all survive."""
+    merged = {
+        mid: dict(vals)
+        for mid, vals in (shared or {}).items()
+        if isinstance(vals, dict)
+    }
+    for mid, vals in (local or {}).items():
+        if not isinstance(vals, dict):
+            print(f"  (ignoring config.json override for {mid}: expected an object)", file=sys.stderr)
+            continue
+        merged.setdefault(mid, {}).update(vals)
+    return merged
 
 
 def apply_models(models_path: str, target_path: str) -> int:
@@ -299,7 +363,11 @@ def main() -> int:
     mach_cfg = glm.load_machines_config()
     machines = mach_cfg.get("llama_swap", {}).get("machines", {})
     defaults = mach_cfg.get("defaults", {})
-    overrides = mach_cfg.get("overrides", {})
+    local_path = os.environ.get("VSCODE_CONFIG") or DEFAULT_CONFIG_PATH
+    local_overrides = load_local_overrides(local_path)
+    overrides = merge_overrides(mach_cfg.get("overrides", {}), local_overrides)
+    if local_overrides:
+        print(f"VS Code-only overrides from {local_path}: {', '.join(sorted(local_overrides))}")
 
     print(f"Fetching models from {server} ...")
     fetched = glm.fetch_litellm_models(server, api_key)
@@ -340,6 +408,7 @@ def main() -> int:
     skipped: list[str] = []
     no_caps: list[str] = []
     multi_host: list[str] = []
+    applied_local: set[str] = set()
     seen: set[str] = set()
     for mid in sorted(model_ids):
         if mid in seen:
@@ -367,7 +436,18 @@ def main() -> int:
             f" reason={caps.get('reasoning', '?')}"
             f" tool={caps.get('tool_call', '?')}"
         )
+        if mid in local_overrides:
+            applied_local.add(mid)
+            detail += "  <- config.json override"
         print(f"  - {mid:36s} {detail}")
+
+    # An override keyed on a model litellm no longer serves fails silently
+    # otherwise, which is the whole reason this file exists.
+    unmatched = sorted(set(local_overrides) - applied_local)
+    if unmatched:
+        print("\nconfig.json overrides that matched no served model (typo, or renamed?):")
+        for mid in unmatched:
+            print(f"  - {mid}")
 
     if skipped:
         print(f"\nSkipped non-chat models (embeddings/rerankers): {', '.join(skipped)}")
