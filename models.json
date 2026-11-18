@@ -4,7 +4,7 @@
     "name": "clyde",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": false,
+    "vision": true,
     "maxInputTokens": 49152,
     "maxOutputTokens": 16384
   },
@@ -472,7 +472,7 @@
     "name": "oracle",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": false,
+    "vision": true,
     "maxInputTokens": 49152,
     "maxOutputTokens": 16384
   },
