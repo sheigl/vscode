@@ -260,6 +260,15 @@
     "vision": false
   },
   {
+    "id": "desktop2.qwen3.8-27b:UD-Q4_K_XL",
+    "name": "desktop2.qwen3.8-27b:UD-Q4_K_XL",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": true,
+    "maxInputTokens": 49152,
+    "maxOutputTokens": 16384
+  },
+  {
     "id": "desktop2.sheetsage2",
     "name": "desktop2.sheetsage2",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
