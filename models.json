@@ -16,6 +16,15 @@
     "vision": false
   },
   {
+    "id": "desktop.deepseek-v4.1-flash-1017:Maya-S-IQ2_XXS-xemaya",
+    "name": "desktop.deepseek-v4.1-flash-1017:Maya-S-IQ2_XXS-xemaya",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": false,
+    "maxInputTokens": 16384,
+    "maxOutputTokens": 16384
+  },
+  {
     "id": "desktop.gemma4:31b",
     "name": "desktop.gemma4:31b",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
@@ -170,7 +179,7 @@
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": true,
-    "maxInputTokens": 49152,
+    "maxInputTokens": 81920,
     "maxOutputTokens": 16384
   },
   {
