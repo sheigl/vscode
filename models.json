@@ -274,6 +274,15 @@
     "vision": false
   },
   {
+    "id": "desktop2.tiel-coder-35b-a3b:UD-Q6_K_XL",
+    "name": "desktop2.tiel-coder-35b-a3b:UD-Q6_K_XL",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": true,
+    "maxInputTokens": 81920,
+    "maxOutputTokens": 16384
+  },
+  {
     "id": "desktop2.yue2-q8",
     "name": "desktop2.yue2-q8",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
