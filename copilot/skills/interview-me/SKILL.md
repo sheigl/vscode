@@ -68,7 +68,7 @@ Wait for the user to react before asking the next question.
 - The user can't react to your hypotheses if you bury them in a list
 - Batches encourage skim-reading and surface answers
 - The third question often depends on the answer to the first; asking them all at once locks in the wrong framing
-- The user's energy for thinking carefully is finite; spend it one at a time
+- The user's energy for thinking carefully is finite; spend it one question at a time
 
 **Why attach a guess:**
 
@@ -235,3 +235,7 @@ After applying interview-me:
 - [ ] At the stop point, the agent could predict reactions to the next three questions it would ask
 - [ ] Upon receiving explicit confirmation, stopped the turn immediately without invoking tools or starting downstream work
 - [ ] Any handoff to a downstream skill (`idea-refine`, `spec-driven-development`) was framed in terms of the confirmed intent, not the original underspecified ask
+
+## How to ask questions
+
+- Make sure when asking the user questions, if the harness has a question asking tool... use it.
