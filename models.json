@@ -5,7 +5,7 @@
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": true,
-    "maxInputTokens": 49152,
+    "maxInputTokens": 81920,
     "maxOutputTokens": 16384
   },
   {
@@ -111,7 +111,7 @@
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": false,
-    "maxInputTokens": 188416,
+    "maxInputTokens": 245760,
     "maxOutputTokens": 16384
   },
   {
@@ -491,7 +491,7 @@
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": true,
-    "maxInputTokens": 49152,
+    "maxInputTokens": 81920,
     "maxOutputTokens": 16384
   },
   {
@@ -500,7 +500,7 @@
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": false,
-    "maxInputTokens": 188416,
+    "maxInputTokens": 245760,
     "maxOutputTokens": 16384
   },
   {
