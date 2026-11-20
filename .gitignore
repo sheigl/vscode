@@ -2,3 +2,6 @@
 !.gitignore
 !models.json
 !gen_vscode_models.py
+!gen_copilot.py
+!copilot/
+!copilot/**
