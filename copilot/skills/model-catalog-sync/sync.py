@@ -45,7 +45,7 @@ from pathlib import Path
 
 OPENCODE_DIR = Path(os.environ.get("MODEL_SYNC_OPENCODE_DIR", "~/.config/opencode")).expanduser()
 VSCODE_DIR = Path(os.environ.get("MODEL_SYNC_VSCODE_DIR", "~/.config/Code/User")).expanduser()
-SKILL_DIR = Path(os.environ.get("MODEL_SYNC_SKILL_DIR", "~/.agents/skills/model-catalog-sync")).expanduser()
+AGENTS_SKILLS_DIR = Path(os.environ.get("MODEL_SYNC_AGENTS_SKILLS_DIR", "~/.agents/skills")).expanduser()
 WATCH = [w for w in os.environ.get("MODEL_SYNC_WATCH", "flash-next").split(",") if w]
 
 
@@ -162,13 +162,27 @@ PULL = ('git -C "$DIR" fetch --prune origin'
         ' || git -C "$DIR" pull --ff-only )')
 
 
+def _tar_filter(info: tarfile.TarInfo) -> tarfile.TarInfo | None:
+    """Leave caches and editor droppings out of the copied trees."""
+    parts = Path(info.name).parts
+    if "__pycache__" in parts or ".git" in parts:
+        return None
+    if info.name.endswith((".pyc", ".pyo", ".DS_Store")):
+        return None
+    return info
+
+
 def push_dir(host: str, local: Path, remote: str) -> tuple[int, str]:
-    """Copy a directory to a host, replacing its contents (tar over ssh)."""
+    """Overlay a directory onto a host (tar over ssh).
+
+    Existing files are replaced, but files the source no longer has are left
+    alone: a machine may keep its own skills next to the shared ones.
+    """
     if not local.exists():
         return 1, f"{local} does not exist"
     buf = io.BytesIO()
     with tarfile.open(fileobj=buf, mode="w:gz") as tar:
-        tar.add(local, arcname=".")
+        tar.add(local, arcname=".", filter=_tar_filter)
     script = f'mkdir -p {remote} && tar -xzf - -C {remote}'
     proc = subprocess.run(
         ["ssh", "-o", "BatchMode=yes", "-o", "ConnectTimeout=10", host,
@@ -208,13 +222,19 @@ def sync_remote(hosts: list[str], vscode: bool) -> list[str]:
         else:
             print("    OpenCode  no checkout, skipped")
 
-        # The sync scripts live outside every repo, so copy them explicitly.
-        rc, out = push_dir(host, SKILL_DIR, "$HOME/.agents/skills/model-catalog-sync")
-        print(f"    Scripts   {'ok' if rc == 0 else 'FAILED'}")
-        if rc:
-            failures.append(f"{host}:scripts")
-            for line in out.strip().splitlines()[-3:]:
-                print(f"      {line}"[:200])
+        # The skill trees are only partly in git: ~/.agents/skills is not a
+        # repo at all, and ~/.config/opencode/skills is partly gitignored, so
+        # copy both explicitly. The first also carries this sync skill.
+        for label, local, remote in (
+            ("Shared    ", AGENTS_SKILLS_DIR, "$HOME/.agents/skills"),
+            ("Skills    ", OPENCODE_DIR / "skills", "$HOME/.config/opencode/skills"),
+        ):
+            rc, out = push_dir(host, local, remote)
+            print(f"    {label}{'ok' if rc == 0 else 'FAILED'}")
+            if rc:
+                failures.append(f"{host}:{label.strip().lower()}")
+                for line in out.strip().splitlines()[-3:]:
+                    print(f"      {line}"[:200])
 
         if not vscode:
             continue
