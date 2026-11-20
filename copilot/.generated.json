@@ -1,0 +1,20 @@
+{
+  "agents": [
+    "implement-deepseek.agent.md",
+    "implement-qwen.agent.md",
+    "implement-session.agent.md",
+    "orchestrator.agent.md",
+    "quality-deepseek.agent.md",
+    "quality-qwen.agent.md",
+    "quality-session.agent.md",
+    "vision.agent.md"
+  ],
+  "skills": [
+    "feature-quality-review",
+    "impeccable",
+    "interview",
+    "story-implementation",
+    "sync-models"
+  ],
+  "mcp": true
+}

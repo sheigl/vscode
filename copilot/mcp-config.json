@@ -1,0 +1,41 @@
+{
+  "mcpServers": {
+    "memory-vault-read": {
+      "type": "http",
+      "url": "http://server.tailc63ae8.ts.net:8766/mcp",
+      "tools": [
+        "*"
+      ]
+    },
+    "memory-vault-write": {
+      "type": "http",
+      "url": "http://server.tailc63ae8.ts.net:8767/mcp",
+      "tools": [
+        "*"
+      ]
+    },
+    "chrome-devtools": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "chrome-devtools-mcp@latest",
+        "--slim",
+        "--headless"
+      ],
+      "tools": [
+        "*"
+      ]
+    },
+    "github": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp",
+      "headers": {
+        "Authorization": "${GITHUB_MCP_TOKEN}"
+      },
+      "tools": [
+        "*"
+      ]
+    }
+  }
+}
