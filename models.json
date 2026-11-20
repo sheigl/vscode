@@ -217,6 +217,15 @@
     "maxOutputTokens": 16384
   },
   {
+    "id": "desktop2.inkling-2-mini:UD-Q8_K_XL",
+    "name": "desktop2.inkling-2-mini:UD-Q8_K_XL",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": true,
+    "maxInputTokens": 81920,
+    "maxOutputTokens": 16384
+  },
+  {
     "id": "desktop2.k2-horizon-7b:q4",
     "name": "desktop2.k2-horizon-7b:q4",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
