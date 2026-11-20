@@ -499,7 +499,7 @@
     "name": "qwen",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": false,
+    "vision": true,
     "maxInputTokens": 245760,
     "maxOutputTokens": 16384
   },
