@@ -18,11 +18,21 @@ is generated. Manual edits to the generated files are lost on the next run.
 | 2 | **the gateway** (`$LITELLM_SERVER`, llm_router) | `POST /api/v1/providers/{id}/models/preview` then `…/models/sync`, one provider per machine | the served model list: one deployment per upstream model, metadata discovered from llama-swap, prune on a build that has it (see *When the gateway image lags*) |
 | 3 | **ai.home** | `~/.config/opencode/scripts/gen_litellm_models.py` | `~/.config/opencode/opencode.jsonc`, commit + push |
 | 4 | **ai.home** | `~/.config/Code/User/gen_vscode_models.py` then `… apply` | `models.json` (tracked, commit + push) and `chatLanguageModels.json` (machine-local) |
-| 5 | **every other machine** | `git pull` over ssh, plus `gen_vscode_models.py apply` where `models.json` exists | the other machines match ai.home |
+| 5 | **ai.home** | `~/.config/Code/User/gen_copilot.py` then `… apply` | `copilot/` in the VS Code repo (agents, skills, `mcp-config.json`; tracked, commit + push) and the same tree in `~/.copilot` |
+| 6 | **every other machine** | `git pull` over ssh, `gen_vscode_models.py apply`, `gen_copilot.py apply`, plus a tar copy of this skill's directory | the other machines match ai.home |
 
 The machines are the `ssh` entries in `~/.config/opencode/scripts/config.json`,
 so a new box is picked up by adding it there. The remote pull probes each one, so
-a machine without VS Code gets the OpenCode pull only.
+a machine without VS Code gets the OpenCode pull only; a machine with `~/.copilot`
+but no VS Code checkout receives the generated Copilot tree by tar.
+
+Step 5 translates OpenCode customizations for the GitHub Copilot harness:
+`agents/*.md` → `~/.copilot/agents/*.agent.md` (model IDs dropped, permissions
+approximated with tool aliases, subagents hidden from the picker),
+`commands/*.md` → `~/.copilot/skills/<name>/SKILL.md` (slash commands; `$ARGUMENTS`
+and `skill(...)` calls rewritten), `skills/` from both `~/.config/opencode` and
+`~/.agents/skills` copied whole, and `mcp.servers` → `~/.copilot/mcp-config.json`
+(`type: http|stdio`, `{env:NAME}` → `${NAME}`).
 
 Both generators read `~/.config/opencode/scripts/config.json` for the per-model
 `overrides` (context / output / vision) and `defaults`. Capabilities otherwise
