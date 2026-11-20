@@ -19,12 +19,20 @@ is generated. Manual edits to the generated files are lost on the next run.
 | 3 | **ai.home** | `~/.config/opencode/scripts/gen_litellm_models.py` | `~/.config/opencode/opencode.jsonc`, commit + push |
 | 4 | **ai.home** | `~/.config/Code/User/gen_vscode_models.py` then `… apply` | `models.json` (tracked, commit + push) and `chatLanguageModels.json` (machine-local) |
 | 5 | **ai.home** | `~/.config/Code/User/gen_copilot.py` then `… apply` | `copilot/` in the VS Code repo (agents, skills, `mcp-config.json`; tracked, commit + push) and the same tree in `~/.copilot` |
-| 6 | **every other machine** | `git pull` over ssh, `gen_vscode_models.py apply`, `gen_copilot.py apply`, plus a tar copy of this skill's directory | the other machines match ai.home |
+| 6 | **every other machine** | `git pull` over ssh, `gen_vscode_models.py apply`, `gen_copilot.py apply`, plus tar copies of `~/.agents/skills` and `~/.config/opencode/skills` | the other machines match ai.home |
 
 The machines are the `ssh` entries in `~/.config/opencode/scripts/config.json`,
 so a new box is picked up by adding it there. The remote pull probes each one, so
 a machine without VS Code gets the OpenCode pull only; a machine with `~/.copilot`
 but no VS Code checkout receives the generated Copilot tree by tar.
+
+Step 6 also tars both skill trees to every machine: `~/.agents/skills` (shared
+skills such as `interview-me`, plus this sync skill and its scripts) and
+`~/.config/opencode/skills` (the git-tracked skills plus ignored ones such as
+`impeccable`). The copy overlays, so a machine keeps any local-only skills, and
+it skips `__pycache__`, `.pyc` and `.DS_Store`. Commit edits to tracked skills
+before syncing, or the tar will copy uncommitted content over the remote's
+checkout and leave it dirty.
 
 Step 5 translates OpenCode customizations for the GitHub Copilot harness:
 `agents/*.md` → `~/.copilot/agents/*.agent.md` (model IDs dropped, permissions
