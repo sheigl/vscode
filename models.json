@@ -5,7 +5,7 @@
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": true,
-    "maxInputTokens": 81920,
+    "maxInputTokens": 114688,
     "maxOutputTokens": 16384
   },
   {
@@ -217,12 +217,21 @@
     "maxOutputTokens": 16384
   },
   {
+    "id": "desktop2.inkling-2-mini:Q4_K_M",
+    "name": "desktop2.inkling-2-mini:Q4_K_M",
+    "url": "https://server.tailc63ae8.ts.net:4444/v1",
+    "toolCalling": true,
+    "vision": true,
+    "maxInputTokens": 16384,
+    "maxOutputTokens": 16384
+  },
+  {
     "id": "desktop2.inkling-2-mini:UD-Q8_K_XL",
     "name": "desktop2.inkling-2-mini:UD-Q8_K_XL",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": true,
-    "maxInputTokens": 81920,
+    "maxInputTokens": 16384,
     "maxOutputTokens": 16384
   },
   {
@@ -265,7 +274,7 @@
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": true,
-    "maxInputTokens": 49152,
+    "maxInputTokens": 114688,
     "maxOutputTokens": 16384
   },
   {
@@ -288,7 +297,7 @@
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": true,
-    "maxInputTokens": 81920,
+    "maxInputTokens": 114688,
     "maxOutputTokens": 16384
   },
   {
@@ -500,7 +509,7 @@
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": true,
-    "maxInputTokens": 81920,
+    "maxInputTokens": 114688,
     "maxOutputTokens": 16384
   },
   {
