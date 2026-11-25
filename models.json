@@ -4,9 +4,9 @@
     "name": "clyde",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 2048,
-    "maxOutputTokens": 2048
+    "vision": false,
+    "maxInputTokens": 81920,
+    "maxOutputTokens": 16384
   },
   {
     "id": "desktop.comfyui_auto",
@@ -226,24 +226,6 @@
     "maxOutputTokens": 16384
   },
   {
-    "id": "desktop2.k2-horizon-7b:q4",
-    "name": "desktop2.k2-horizon-7b:q4",
-    "url": "https://server.tailc63ae8.ts.net:4444/v1",
-    "toolCalling": true,
-    "vision": false,
-    "maxInputTokens": 49152,
-    "maxOutputTokens": 16384
-  },
-  {
-    "id": "desktop2.lfm-2.5-24b:UD-Q6_K_XL",
-    "name": "desktop2.lfm-2.5-24b:UD-Q6_K_XL",
-    "url": "https://server.tailc63ae8.ts.net:4444/v1",
-    "toolCalling": true,
-    "vision": false,
-    "maxInputTokens": 114688,
-    "maxOutputTokens": 16384
-  },
-  {
     "id": "desktop2.lfm2.5-vl-3b",
     "name": "desktop2.lfm2.5-vl-3b",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
@@ -265,8 +247,8 @@
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": true,
-    "maxInputTokens": 4096,
-    "maxOutputTokens": 4096
+    "maxInputTokens": 49152,
+    "maxOutputTokens": 16384
   },
   {
     "id": "desktop2.sheetsage2",
@@ -288,8 +270,8 @@
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": true,
-    "maxInputTokens": 2048,
-    "maxOutputTokens": 2048
+    "maxInputTokens": 49152,
+    "maxOutputTokens": 16384
   },
   {
     "id": "desktop2.yue2-q8",
@@ -499,9 +481,9 @@
     "name": "oracle",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 2048,
-    "maxOutputTokens": 2048
+    "vision": false,
+    "maxInputTokens": 81920,
+    "maxOutputTokens": 16384
   },
   {
     "id": "qwen",
