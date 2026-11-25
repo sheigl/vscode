@@ -5,8 +5,8 @@
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": true,
-    "maxInputTokens": 114688,
-    "maxOutputTokens": 16384
+    "maxInputTokens": 1,
+    "maxOutputTokens": 4096
   },
   {
     "id": "desktop.comfyui_auto",
@@ -106,15 +106,6 @@
     "maxOutputTokens": 16384
   },
   {
-    "id": "desktop.qwen3.8-flash-next:Q4_K_XL-xemaya",
-    "name": "desktop.qwen3.8-flash-next:Q4_K_XL-xemaya",
-    "url": "https://server.tailc63ae8.ts.net:4444/v1",
-    "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 245760,
-    "maxOutputTokens": 16384
-  },
-  {
     "id": "desktop.qwen3.8-flash-next:Q5_K_L-swift",
     "name": "desktop.qwen3.8-flash-next:Q5_K_L-swift",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
@@ -206,7 +197,7 @@
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": true,
-    "maxInputTokens": 114688,
+    "maxInputTokens": 16384,
     "maxOutputTokens": 16384
   },
   {
@@ -226,21 +217,12 @@
     "maxOutputTokens": 16384
   },
   {
-    "id": "desktop2.inkling-2-mini:Q4_K_M",
-    "name": "desktop2.inkling-2-mini:Q4_K_M",
+    "id": "desktop2.inkling-2-mini-ud-q4_k_xl",
+    "name": "desktop2.inkling-2-mini-ud-q4_k_xl",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 16384,
-    "maxOutputTokens": 16384
-  },
-  {
-    "id": "desktop2.inkling-2-mini:UD-Q8_K_XL",
-    "name": "desktop2.inkling-2-mini:UD-Q8_K_XL",
-    "url": "https://server.tailc63ae8.ts.net:4444/v1",
-    "toolCalling": true,
-    "vision": true,
-    "maxInputTokens": 16384,
+    "vision": false,
+    "maxInputTokens": 81920,
     "maxOutputTokens": 16384
   },
   {
@@ -283,8 +265,8 @@
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": true,
-    "maxInputTokens": 114688,
-    "maxOutputTokens": 16384
+    "maxInputTokens": 4096,
+    "maxOutputTokens": 4096
   },
   {
     "id": "desktop2.sheetsage2",
@@ -306,8 +288,8 @@
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": true,
-    "maxInputTokens": 114688,
-    "maxOutputTokens": 16384
+    "maxInputTokens": 2048,
+    "maxOutputTokens": 2048
   },
   {
     "id": "desktop2.yue2-q8",
@@ -518,8 +500,8 @@
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": true,
-    "maxInputTokens": 114688,
-    "maxOutputTokens": 16384
+    "maxInputTokens": 1,
+    "maxOutputTokens": 4096
   },
   {
     "id": "qwen",
