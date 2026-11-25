@@ -5,8 +5,8 @@
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": true,
-    "maxInputTokens": 1,
-    "maxOutputTokens": 4096
+    "maxInputTokens": 2048,
+    "maxOutputTokens": 2048
   },
   {
     "id": "desktop.comfyui_auto",
@@ -500,8 +500,8 @@
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": true,
-    "maxInputTokens": 1,
-    "maxOutputTokens": 4096
+    "maxInputTokens": 2048,
+    "maxOutputTokens": 2048
   },
   {
     "id": "qwen",
