@@ -5,7 +5,7 @@
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": true,
-    "maxInputTokens": 81920,
+    "maxInputTokens": 16384,
     "maxOutputTokens": 16384
   },
   {
@@ -217,8 +217,8 @@
     "maxOutputTokens": 16384
   },
   {
-    "id": "desktop2.inkling-2-mini-ud-q4_k_xl",
-    "name": "desktop2.inkling-2-mini-ud-q4_k_xl",
+    "id": "desktop2.inkling-2-mini-prime-q4_k_m",
+    "name": "desktop2.inkling-2-mini-prime-q4_k_m",
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": true,
@@ -482,7 +482,7 @@
     "url": "https://server.tailc63ae8.ts.net:4444/v1",
     "toolCalling": true,
     "vision": true,
-    "maxInputTokens": 81920,
+    "maxInputTokens": 16384,
     "maxOutputTokens": 16384
   },
   {
